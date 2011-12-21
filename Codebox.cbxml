@@ -1,0 +1,315 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
+        <nextObjectID>137</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>358</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Asset</key>
+                        <data>
+		tyQotsO8NDvt1XE0n7ISUiSHKjen9suD2Y4EXGRd56I=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		6AflOHiDpCFdpGAdI0h5t/eykc0B/9DCQLuGcURzmWI=
+		</data>
+                        <key>List</key>
+                        <data>
+		f4nmFsXfFk8V4CSJFMVZeV0UVaEd8d49csHd+yfBOO4=
+		</data>
+                        <key>Search</key>
+                        <data>
+		/Di3N1cVqPFGCxVmoUJ3wQ51ctkJsx+xJfuxAdNqToc=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		4X/rsY/TA70Pj9wVlkKWOTV5xo34weRxc8LfSD+NVD8=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		tynbpfPyYUACFlBsnCbwUvDeu/vffT4ux8pptcOescY=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SEARCH" id="z102">
+        <attribute name="sort" type="int16">-1</attribute>
+        <attribute name="name" type="string">All Snippets</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="SNIPPET" id="z103">
+        <attribute name="name" type="string">Zahlen formatieren</attribute>
+        <attribute name="modified" type="date">340380789.50862699747085571289</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z104"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z105 z106"></relationship>
+    </object>
+    <object type="ASSET" id="z104">
+        <attribute name="notes" type="string">Tausender Trennzeichen hinzufügen und Komma statt Punkt
+
+Erwartet eine Zahl in dem Format 1500.00 und gibt dafür 1.500,00 zurück.</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gc3RyX3JlcGxhY2Uoc2VhcmNoLCByZXBsYWNlLCBzdWJqZWN0KSB7CglyZXR1cm4g
+c3ViamVjdC5zcGxpdChzZWFyY2gpLmpvaW4ocmVwbGFjZSk7Cn0KCi8vIFphaGxlbiBzY2hvZW4gZm9ybWF0aWVyZW4gCmZ1bmN0aW9uIFRyZW5uZXIobnVtYmVyKSB7CgludW1iZXIgPSAnJyArIG51bWJlcjsKCWlmIChudW1iZXIubGVuZ3RoID4gMykgewoJCXZhciBtb2QgPSBudW1iZXIubGVuZ3RoICUgMzsKCQl2YXIgb3V0cHV0ID0gKG1vZCA+IDAgPyAobnVtYmVyLnN1YnN0cmluZygwLCBtb2QpKSA6ICcnKTsKCQlmb3IgKGkgPSAwOyBpIDwgTWF0aC5mbG9vcihudW1iZXIubGVuZ3RoIC8gMyk7IGkrKykgewoJCQlpZiAoKG1vZCA9PSAwKSAmJiAoaSA9PSAwKSkgb3V0cHV0ICs9IG51bWJlci5zdWJzdHJpbmcobW9kICsgMyAqIGksIG1vZCArIDMgKiBpICsgMyk7CgkJCWVsc2UKCQkJLy8gaGllciB3aXJkIGRhcyBUcmVubnplaWNoZW4gZmVzdGdlbGVndCBtaXQgJy4nCgkJCW91dHB1dCArPSAnLicgKyBudW1iZXIuc3Vic3RyaW5nKG1vZCArIDMgKiBpLCBtb2QgKyAzICogaSArIDMpOwoJCX0KCQlvdXRwdXQgPSBzdHJfcmVwbGFjZSgiLi4iLCAiLCIsIG91dHB1dCk7CgkJaWYgKG91dHB1dC5pbmRleE9mKCIsIikgPT0gLTEpIHsKCQkJb3V0cHV0ID0gb3V0cHV0ICsgJywwMCc7CgkJfQoJCXJldHVybiBvdXRwdXQ7Cgl9IGVsc2UgaWYgKG51bWJlci5pbmRleE9mKCIsIikgPT0gLTEpIHsKCQludW1iZXIgPSBudW1iZXIgKyAnLDAwJzsKCX0KCXJldHVybiBudW1iZXI7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z103"></relationship>
+    </object>
+    <object type="TAG" id="z105">
+        <attribute name="name" type="string">Plain</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z120 z103 z118"></relationship>
+    </object>
+    <object type="TAG" id="z106">
+        <attribute name="name" type="string">Javascript</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z103 z132 z120 z118"></relationship>
+    </object>
+    <object type="ASSET" id="z107">
+        <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">OjotbW96LXNlbGVjdGlvbiB7CgliYWNrZ3JvdW5kLWNvbG9yOiNGRjA7Cgljb2xvcjojMDAwOwp9
+Cgo6OnNlbGVjdGlvbiB7CgliYWNrZ3JvdW5kLWNvbG9yOiNGRjA7Cgljb2xvcjojMDAwOwp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="SNIPPET" id="z108">
+        <attribute name="name" type="string">Farbige Markierung</attribute>
+        <attribute name="modified" type="date">340383444.65206199884414672852</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z107"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+    </object>
+    <object type="TAG" id="z109">
+        <attribute name="name" type="string">CSS</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="SNIPPET" id="z110">
+        <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
+        <attribute name="modified" type="date">340383854.01353800296783447266</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z111"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z112 z113"></relationship>
+    </object>
+    <object type="ASSET" id="z111">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">W3VzZXJdCgluYW1lID0gRmlyc3RuYW1lIExhc3RuYW1lCgllbWFpbCA9IG1haWxAZG9tYWluLmNv
+bQpbY29sb3JdCglkaWZmID0gYXV0bwoJc3RhdHVzID0gYXV0bwoJYnJhbmNoID0gYXV0bwpbYXBwbHldCgl3aGl0ZXNwYWNlID0gbm93YXJu
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="TAG" id="z112">
+        <attribute name="name" type="string">configuration</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="TAG" id="z113">
+        <attribute name="name" type="string">git</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z110"></relationship>
+    </object>
+    <object type="SNIPPET" id="z114">
+        <attribute name="name" type="string">Recursively delete .svn directories</attribute>
+        <attribute name="modified" type="date">340384177.98170799016952514648</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z115"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z116 z117"></relationship>
+    </object>
+    <object type="ASSET" id="z115">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.sh</attribute>
+        <attribute name="content" type="binary">Y2QgRk9MREVSCnJtIC1yZiAnZmluZCAuIC10eXBlIGQgLW5hbWUgLnN2bic=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z114"></relationship>
+    </object>
+    <object type="TAG" id="z116">
+        <attribute name="name" type="string">Bash</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114"></relationship>
+    </object>
+    <object type="TAG" id="z117">
+        <attribute name="name" type="string">SVN</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114"></relationship>
+    </object>
+    <object type="SNIPPET" id="z118">
+        <attribute name="name" type="string">str_replace in Javascript</attribute>
+        <attribute name="modified" type="date">340384757.16698998212814331055</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z119"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z105"></relationship>
+    </object>
+    <object type="ASSET" id="z119">
+        <attribute name="notes" type="string">str_replace in Javascript</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gc3RyX3JlcGxhY2Uoc2VhcmNoLCByZXBsYWNlLCBzdWJqZWN0KSB7CglyZXR1cm4g
+c3ViamVjdC5zcGxpdChzZWFyY2gpLmpvaW4ocmVwbGFjZSk7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z118"></relationship>
+    </object>
+    <object type="SNIPPET" id="z120">
+        <attribute name="name" type="string">Querystring auslesen</attribute>
+        <attribute name="modified" type="date">340384819.52223098278045654297</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z121"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z105"></relationship>
+    </object>
+    <object type="ASSET" id="z121">
+        <attribute name="notes" type="string">The way that the function is used is fairly simple. Let's say you have the following URL:
+http://www.foo.com/index.html?bob=123\u2600frank=321\u2600tom=213#top
+You want to get the value from the frank parameter so you call the javascript function as follows:
+var frank_param = gup( 'frank' );
+Now if you look at the frank_param variable it contains the number 321. The query string was parsed by the regular expression and the value of the frank parameter was retrieved. The function is smart in a couple of ways. For example, if you have an anchor in your URL like our example URL above does (#top) the gup() function knows to stop before the # character. Also, if a requested parameter doesn't exist in the query string then an empty string is returned instead of a null.
+http://www.netlobo.com/url_query_string_javascript.html</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gZ3VwKCBuYW1lICkKewrCoMKgbmFtZSA9IG5hbWUucmVwbGFjZSgvW1xbXS8sIlxc
+XFsiKS5yZXBsYWNlKC9bXF1dLywiXFxcXSIpOwrCoMKgdmFyIHJlZ2V4UyA9ICJbXFw/Jl0iK25hbWUrIj0oW14mI10qKSI7CsKgwqB2YXIgcmVnZXggPSBuZXcgUmVnRXhwKCByZWdleFMgKTsKwqDCoHZhciByZXN1bHRzID0gcmVnZXguZXhlYyggd2luZG93LmxvY2F0aW9uLmhyZWYgKTsKwqDCoGlmKCByZXN1bHRzID09IG51bGwgKQrCoMKgwqDCoHJldHVybiAiIjsKwqDCoGVsc2UKwqDCoMKgwqByZXR1cm4gcmVzdWx0c1sxXTsKfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z120"></relationship>
+    </object>
+    <object type="SNIPPET" id="z122">
+        <attribute name="name" type="string">Suchen und ersetzen mit Wildcards</attribute>
+        <attribute name="modified" type="date">340465515.60192698240280151367</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z123"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z124"></relationship>
+    </object>
+    <object type="ASSET" id="z123">
+        <attribute name="notes" type="string">Beispiel 1:
+
+Sucht im ersten Ausdruck nach Bindestrichen, Großbuchstaben und Kleinbuchstaben und speichert sie in der Variable $1 weil der Ausdruck in runden Klammen steht.
+
+Im zweiten Ausdruck sucht er nach allen Zeichen und speichert sie in der Variablen $2
+
+Beispiel 2:
+
+Sucht nach einem Komma, dass direkt von einer Zahl gefolgt wird und nicht von einem Zollzeichen. Denn hiermit [^] werden Zeichen negiert</attribute>
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.re</attribute>
+        <attribute name="content" type="binary">QmVpc3BpZWwgMToKCjxvcHRpb24gdmFsdWU9IkRFIiBzZWxlY3RlZD0ic2VsZWN0ZWQiPkRldXRz
+Y2hsYW5kPC9vcHRpb24+CnNvbGwgaGVpw59lbjoKREUgLT4gRGV1dHNjaGxhbmQKCkZpbmQ6CTxvcHRpb24gdmFsdWU9IihbLUEtWi1hLXpdKikiPiguKik8L29wdGlvbj4KUmVwbGFjZToJJDEgLT4gJDIKCgpCZWlzcGllbCAyOgoKImJhc2UiLCJhZG1pbiIsIjIiLCI1NDAvNDMgcG9zdGZyaXNjaCBEZXV0c2NoZSBLb2xvbmlhbGZvcnNjaGVyIiwiNTQwLzQzIiw1NDAKc29sbCBoZWnDn2VuOgoiYmFzZSIsImFkbWluIiwiMiIsIjU0MC80MyBwb3N0ZnJpc2NoIERldXRzY2hlIEtvbG9uaWFsZm9yc2NoZXIiLCI1NDAvNDMiLCI1NDAiCgpGaW5kOgksKFteIl1bMC05XSopClJlcGxhY2U6CSwiJDEiCgo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z122"></relationship>
+    </object>
+    <object type="TAG" id="z124">
+        <attribute name="name" type="string">RegExp</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z128 z125 z132 z122"></relationship>
+    </object>
+    <object type="SNIPPET" id="z125">
+        <attribute name="name" type="string">Bis zu einem bestimmten Zeichen</attribute>
+        <attribute name="modified" type="date">340465541.58726501464843750000</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z126"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z124"></relationship>
+    </object>
+    <object type="ASSET" id="z126">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.php</attribute>
+        <attribute name="content" type="binary">JGFjdCA9IHByZWdfcmVwbGFjZSgiLy4qXC8vaSIsICIiLCAkX1NFUlZFUlsnUEhQX1NFTEYnXSk7
+
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z125"></relationship>
+    </object>
+    <object type="ASSET" id="z127">
+        <attribute name="notes" type="string">Deutsche Schreibweise im Format dd.mm.yyyy
+
+Akzeptiert nur 19xx und 20xx als Jahreszahlen.</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Deutsch.re</attribute>
+        <attribute name="content" type="binary">XigwWzEtOV18WzEyXVxkfDNbMDFdKVwuKDBbMS05XXwxWzAxMl0pXC4oMTl8MjApXGR7Mn0k
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z128"></relationship>
+    </object>
+    <object type="SNIPPET" id="z128">
+        <attribute name="name" type="string">Datum</attribute>
+        <attribute name="modified" type="date">340469683.43733501434326171875</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z129 z127 z130"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z124"></relationship>
+    </object>
+    <object type="ASSET" id="z129">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">English.re</attribute>
+        <attribute name="notes" type="string">Englische Schreibweise im Format mm/dd/yyyy
+
+Akzeptiert nur 19xx und 20xx als Jahreszahlen.</attribute>
+        <attribute name="content" type="binary">XigwWzEtOV18MVswMTJdKVwvKDBbMS05XXxbMTJdXGR8M1swMV0pXC8oMTl8MjApXGR7Mn0k
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z128"></relationship>
+    </object>
+    <object type="ASSET" id="z130">
+        <attribute name="sort" type="int32">2</attribute>
+        <attribute name="path" type="string">Sowohl als auch.re</attribute>
+        <attribute name="notes" type="string">Akzeptiert sowohl mm/dd/yyyy als auch dd.mm.yyy
+
+Akzeptiert nur 19xx und 20xx als Jahreszahlen.</attribute>
+        <attribute name="content" type="binary">XigoMFsxLTldfDFbMDEyXSlcLygwWzEtOV18WzEyXVxkfDNbMDFdKVwvKDE5fDIwKVxkezJ9fF4o
+MFsxLTldfFsxMl1cZHwzWzAxXSlcLigwWzEtOV18MVswMTJdKVwuKDE5fDIwKVxkezJ9KSQ=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z128"></relationship>
+    </object>
+    <object type="ASSET" id="z131">
+        <attribute name="notes" type="string">match()
+
+Returned alle Treffer.</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">match.js</attribute>
+        <attribute name="content" type="binary">KGZ1bmN0aW9uKCkgewogICAgdmFyIHN0ciA9ICczMS4xMi4yMDQ3JzsKICAgIHZhciByZWdleHAg
+PSAvKDBbMS05XXxbMTJdXGR8M1swMV0pXC4oMFsxLTldfDFbMDEyXSlcLigxOXwyMClcZHsyfS87CiAgICB2YXIgZm91bmQgPSBzdHIubWF0Y2gocmVnZXhwKTsKICAgIGNvbnNvbGUubG9nKGZvdW5kKTsKfSkoKTsK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z132"></relationship>
+    </object>
+    <object type="SNIPPET" id="z132">
+        <attribute name="name" type="string">Reguläre Ausdrücke RegExp</attribute>
+        <attribute name="modified" type="date">340474618.63643002510070800781</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z131 z135 z133"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z124"></relationship>
+    </object>
+    <object type="ASSET" id="z133">
+        <attribute name="sort" type="int32">2</attribute>
+        <attribute name="path" type="string">search.js</attribute>
+        <attribute name="notes" type="string">search()
+
+Returned wenn er matched die Position desersten Treffers. Ansonsten -1</attribute>
+        <attribute name="content" type="binary">KGZ1bmN0aW9uKCkgewogICAgdmFyIHN0ciA9ICczMS4xMi4yMDQ3JzsKICAgIHZhciByZWdleHAg
+PSAvKDBbMS05XXxbMTJdXGR8M1swMV0pXC4oMFsxLTldfDFbMDEyXSlcLigxOXwyMClcZHsyfS87CiAgICB2YXIgZm91bmQgPSBzdHIuc2VhcmNoKHJlZ2V4cCk7CiAgICBpZiAoZm91bmQgIT0gLTEpIHsKICAgICAgICBjb25zb2xlLmxvZyhmb3VuZCArICcgdmFsaWQgZ2VybWFuIGRhdGUnKTsKICAgIH0gZWxzZSB7CiAgICAgICAgY29uc29sZS5sb2coZm91bmQgKyAnIGludmFsaWQgZ2VybWFuIGRhdGUnKTsKICAgIH0KfSkoKTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z132"></relationship>
+    </object>
+    <object type="ASSET" id="z135">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">replace.js</attribute>
+        <attribute name="notes" type="string">replace()
+
+Suchen und ersetzen mit regulären ausdrücken.</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gZm9ybWF0RGF0ZShnZXJtYW5EYXRlKSB7CiAgICB2YXIgcmVnRXhwID0gL14oMFsx
+LTldfFsxMl1cZHwzWzAxXSlcLigwWzEtOV18MVswMTJdKVwuKCgxOXwyMClcZHsyfSkkLzsgICAKICAgIHZhciBlbmdsaXNoRGF0ZSA9IGdlcm1hbkRhdGUucmVwbGFjZShyZWdFeHAsICIkMi8kMS8kMyIpOwogICAgcmV0dXJuIGVuZ2xpc2hEYXRlOwp9OwoKY29uc29sZS5sb2coZm9ybWF0RGF0ZSgnMzEuMTIuMjA0NycpKTsK
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z132"></relationship>
+    </object>
+</database>
