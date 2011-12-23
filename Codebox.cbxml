@@ -480,6 +480,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z162"></relationship>
     </object>
     <object type="ASSET" id="z165">
+        <attribute name="notes" type="string">If you scale down an image with width and/or height attributes, it's going to look terrible in IE unless you use this.</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
         <attribute name="content" type="binary">aW1nIHsKICAgICAgIC1tcy1pbnRlcnBvbGF0aW9uLW1vZGU6IGJpY3ViaWM7Cn0=
