@@ -472,6 +472,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z164 z161"></relationship>
     </object>
     <object type="ASSET" id="z163">
+        <attribute name="notes" type="string">This is invalid CSS, but it works in everything except Opera. The reason for this is to prevent "centering jumps" when navigating back and forth between pages with enough content to have a vertical scroll bar and pages that do not.</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
         <attribute name="content" type="binary">aHRtbCB7CiAgICAgICBvdmVyZmxvdy15OiBzY3JvbGw7Cn0=
