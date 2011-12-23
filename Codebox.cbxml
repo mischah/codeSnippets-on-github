@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>166</nextObjectID>
+        <nextObjectID>167</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -489,10 +489,14 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
     </object>
     <object type="SNIPPET" id="z166">
         <attribute name="name" type="string">Not-Terrible Image Resizing in IE</attribute>
-        <attribute name="modified" type="date">346294707.93468397855758666992</attribute>
+        <attribute name="modified" type="date">346294749.32253897190093994141</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z165"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109 z167"></relationship>
+    </object>
+    <object type="TAG" id="z167">
+        <attribute name="name" type="string">images</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166"></relationship>
     </object>
 </database>
