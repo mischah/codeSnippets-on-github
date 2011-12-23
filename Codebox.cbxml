@@ -99,7 +99,7 @@ Cgo6OnNlbGVjdGlvbiB7CgliYWNrZ3JvdW5kLWNvbG9yOiNGRjA7Cgljb2xvcjojMDAwOwp9
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z139 z108"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
@@ -311,21 +311,5 @@ Suchen und ersetzen mit regulären ausdrücken.</attribute>
 LTldfFsxMl1cZHwzWzAxXSlcLigwWzEtOV18MVswMTJdKVwuKCgxOXwyMClcZHsyfSkkLzsgICAKICAgIHZhciBlbmdsaXNoRGF0ZSA9IGdlcm1hbkRhdGUucmVwbGFjZShyZWdFeHAsICIkMi8kMS8kMyIpOwogICAgcmV0dXJuIGVuZ2xpc2hEYXRlOwp9OwoKY29uc29sZS5sb2coZm9ybWF0RGF0ZSgnMzEuMTIuMjA0NycpKTsK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z132"></relationship>
-    </object>
-    <object type="ASSET" id="z138">
-        <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.txt</attribute>
-        <attribute name="content" type="binary">ZGl2IHsKICAgbWluLWhlaWdodDogNTAwcHg7CiAgIGhlaWdodDphdXRvICFpbXBvcnRhbnQ7CiAg
-IGhlaWdodDogNTAwcHg7Cn0=
-</attribute>
-        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z139"></relationship>
-    </object>
-    <object type="SNIPPET" id="z139">
-        <attribute name="name" type="string">Cross-Browser Min Height</attribute>
-        <attribute name="modified" type="date">346293123.08161997795104980469</attribute>
-        <attribute name="locked" type="bool">0</attribute>
-        <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z138"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
     </object>
 </database>
