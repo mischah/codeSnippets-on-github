@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>164</nextObjectID>
+        <nextObjectID>166</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -99,7 +99,7 @@ Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2Fm
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z141 z143 z145"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z108 z141 z143 z145 z162"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
@@ -465,11 +465,11 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
     </object>
     <object type="SNIPPET" id="z162">
         <attribute name="name" type="string">Force Vertical Scrollbar</attribute>
-        <attribute name="modified" type="date">346294460.95432400703430175781</attribute>
+        <attribute name="modified" type="date">346294698.25731498003005981445</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z163"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z164 z161"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109 z161"></relationship>
     </object>
     <object type="ASSET" id="z163">
         <attribute name="notes" type="string">This is invalid CSS, but it works in everything except Opera. The reason for this is to prevent "centering jumps" when navigating back and forth between pages with enough content to have a vertical scroll bar and pages that do not.</attribute>
@@ -479,8 +479,19 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z162"></relationship>
     </object>
-    <object type="TAG" id="z164">
-        <attribute name="name" type="string">css</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z162"></relationship>
+    <object type="ASSET" id="z165">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">aW1nIHsKICAgICAgIC1tcy1pbnRlcnBvbGF0aW9uLW1vZGU6IGJpY3ViaWM7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z166"></relationship>
+    </object>
+    <object type="SNIPPET" id="z166">
+        <attribute name="name" type="string">Not-Terrible Image Resizing in IE</attribute>
+        <attribute name="modified" type="date">346294707.93468397855758666992</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z165"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
     </object>
 </database>
