@@ -84,8 +84,8 @@ c3ViamVjdC5zcGxpdChzZWFyY2gpLmpvaW4ocmVwbGFjZSk7Cn0KCi8vIFphaGxlbiBzY2hvZW4gZm9y
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
-        <attribute name="content" type="binary">OjotbW96LXNlbGVjdGlvbiB7CgliYWNrZ3JvdW5kLWNvbG9yOiNGRjA7Cgljb2xvcjojMDAwOwp9
-Cgo6OnNlbGVjdGlvbiB7CgliYWNrZ3JvdW5kLWNvbG9yOiNGRjA7Cgljb2xvcjojMDAwOwp9
+        <attribute name="content" type="binary">LyogTW96aWxsYSBiYXNlZCBicm93c2VycyAqLwo6Oi1tb3otc2VsZWN0aW9uIHsKICAgICAgIGJh
+Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2FmYXJpICovCjo6c2VsZWN0aW9uIHsKICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQ==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z108"></relationship>
     </object>
