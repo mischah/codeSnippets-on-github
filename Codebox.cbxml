@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>139</nextObjectID>
+        <nextObjectID>141</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -99,7 +99,7 @@ Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2Fm
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z141 z108"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
@@ -311,5 +311,21 @@ Suchen und ersetzen mit regulären ausdrücken.</attribute>
 LTldfFsxMl1cZHwzWzAxXSlcLigwWzEtOV18MVswMTJdKVwuKCgxOXwyMClcZHsyfSkkLzsgICAKICAgIHZhciBlbmdsaXNoRGF0ZSA9IGdlcm1hbkRhdGUucmVwbGFjZShyZWdFeHAsICIkMi8kMS8kMyIpOwogICAgcmV0dXJuIGVuZ2xpc2hEYXRlOwp9OwoKY29uc29sZS5sb2coZm9ybWF0RGF0ZSgnMzEuMTIuMjA0NycpKTsK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z132"></relationship>
+    </object>
+    <object type="ASSET" id="z140">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">LmNlbnRlciB7CiAgIGJhY2tncm91bmQ6IHBpbms7CiAgIHdpZHRoOiAzMDBweDsKICAgaGVpZ2h0
+OiAzMDBweDsKICAgcG9zaXRpb246IGFic29sdXRlOwogICBsZWZ0OiA1MCU7CiAgIHRvcDogNTAlOwogICBtYXJnaW4tbGVmdDogLTE1MHB4OwogICBtYXJnaW4tdG9wOiAtMTUwcHg7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z141"></relationship>
+    </object>
+    <object type="SNIPPET" id="z141">
+        <attribute name="name" type="string">.center {</attribute>
+        <attribute name="modified" type="date">346293338.46951097249984741211</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z140"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
     </object>
 </database>
