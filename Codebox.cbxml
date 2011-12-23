@@ -336,8 +336,8 @@ OiAzMDBweDsKICAgcG9zaXRpb246IGFic29sdXRlOwogICBsZWZ0OiA1MCU7CiAgIHRvcDogNTAlOwog
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z141"></relationship>
     </object>
     <object type="SNIPPET" id="z143">
-        <attribute name="name" type="string">Syntax</attribute>
-        <attribute name="modified" type="date">346293432.35430198907852172852</attribute>
+        <attribute name="name" type="string">Font Shorthand</attribute>
+        <attribute name="modified" type="date">346293468.49750500917434692383</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z144"></relationship>
