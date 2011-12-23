@@ -321,8 +321,8 @@ IGhlaWdodDogNTAwcHg7Cn0=
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z139"></relationship>
     </object>
     <object type="SNIPPET" id="z139">
-        <attribute name="name" type="string">div {</attribute>
-        <attribute name="modified" type="date">346293108.39684098958969116211</attribute>
+        <attribute name="name" type="string">Cross-Browser Min Height</attribute>
+        <attribute name="modified" type="date">346293123.08161997795104980469</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z138"></relationship>
