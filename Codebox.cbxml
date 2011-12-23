@@ -362,8 +362,8 @@ dC13ZWlnaHQgZm9udC1zaXplL2xpbmUtaGVpZ2h0IGZvbnQtZmFtaWx5Owp9CgovKiBJbiBVc2UgKi8K
     <object type="ASSET" id="z146">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
-        <attribute name="content" type="binary">LmNsZWFyRml4QmFzaWMgewoJLmhhc0xheW91dDsKCW92ZXJmbG93OiBoaWRkZW47Cn0KCi5jbGVh
-ckZpeEFkdmFuY2VkIHsKCS5oYXNMYXlvdXQ7CgkmOmJlZm9yZSwgJjphZnRlciB7CgkJY29udGVudDogIiI7CgkJZGlzcGxheTogdGFibGU7Cgl9CgkmOmFmdGVyIHsgY2xlYXI6IGJvdGg7IH0KfQ==
+        <attribute name="content" type="binary">LmNsZWFyRml4QmFzaWMgewoJb3ZlcmZsb3c6IGhpZGRlbjsKCXpvb206IDE7Cn0KCi5jbGVhckZp
+eEFkdmFuY2VkIHsgem9vbTogMTsgfQouY2xlYXJGaXhBZHZhbmNlZDpiZWZvcmUsIC5jbGVhckZpeEFkdmFuY2VkOmFmdGVyIHsKCWNvbnRlbnQ6ICIiOwoJZGlzcGxheTogdGFibGU7Cn0KLmNsZWFyRml4QWR2YW5jZWQ6YWZ0ZXIgeyBjbGVhcjogYm90aDsgfQ==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z145"></relationship>
     </object>
