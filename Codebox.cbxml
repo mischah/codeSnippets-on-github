@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>151</nextObjectID>
+        <nextObjectID>158</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -322,11 +322,11 @@ OiAzMDBweDsKICAgcG9zaXRpb246IGFic29sdXRlOwogICBsZWZ0OiA1MCU7CiAgIHRvcDogNTAlOwog
     </object>
     <object type="SNIPPET" id="z141">
         <attribute name="name" type="string">.center {</attribute>
-        <attribute name="modified" type="date">346293338.46951097249984741211</attribute>
+        <attribute name="modified" type="date">346294326.91827899217605590820</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z142 z140"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109 z154"></relationship>
     </object>
     <object type="ASSET" id="z142">
         <attribute name="sort" type="int32">1</attribute>
@@ -337,11 +337,11 @@ OiAzMDBweDsKICAgcG9zaXRpb246IGFic29sdXRlOwogICBsZWZ0OiA1MCU7CiAgIHRvcDogNTAlOwog
     </object>
     <object type="SNIPPET" id="z143">
         <attribute name="name" type="string">Font Shorthand</attribute>
-        <attribute name="modified" type="date">346293878.03004997968673706055</attribute>
+        <attribute name="modified" type="date">346294315.50233101844787597656</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z144"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109 z158 z157"></relationship>
     </object>
     <object type="ASSET" id="z144">
         <attribute name="sort" type="int32">-1</attribute>
@@ -353,11 +353,11 @@ dC13ZWlnaHQgZm9udC1zaXplL2xpbmUtaGVpZ2h0IGZvbnQtZmFtaWx5Owp9CgovKiBJbiBVc2UgKi8K
     </object>
     <object type="SNIPPET" id="z145">
         <attribute name="name" type="string">Force Element To Self-Clear its Children</attribute>
-        <attribute name="modified" type="date">346293891.84574598073959350586</attribute>
+        <attribute name="modified" type="date">346294307.29808998107910156250</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z146"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z155 z156 z153 z109"></relationship>
     </object>
     <object type="ASSET" id="z146">
         <attribute name="sort" type="int32">-1</attribute>
@@ -371,7 +371,7 @@ bjsKCXpvb206IDE7Cn0KCi8qIFVzZSB0aGlzIGlmIHRoZSBwcmV2aW91cyBjYXVzZSB0cm91YmxlcyAo
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXxAQdmFsdWVGb3JLZXlQYXRoOtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtZdGFncy5uYW1l0iorPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz4/MF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0iorQUJeTlNNdXRhYmxlQXJyYXmjQUMwV05TQXJyYXnSKitFRl8QE05TS2V5UGF0aEV4cHJlc3Npb26kR0hJMF8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27THUsLTE1OXxAPTlNDb25zdGFudFZhbHVlEACAD4AQU0NTU9IqK1FSXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNTVDBfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtRWVwtYWVpbIV5OU09wZXJhdG9yVHlwZVpOU01vZGlmaWVyV05TRmxhZ3MQYxACgBLSKitdXl8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNfYDBfEBVOU0luUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjZGUwXxAVTlNDb21wYXJpc29uUHJlZGljYXRlW05TUHJlZGljYXRl0iorQ2eiQzDSKitpal8QE05TQ29tcG91bmRQcmVkaWNhdGWja2wwXxATTlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRyb290gAEACAARABoAIwAtADIANwBQAFYAXQBvAIkAkACSAJQAlgCbAKYAqACqAKwAtQDIANwA8gD0APYA+AD6AQUBGAEnATEBPQE/AUEBQwFFAUcBWgFfAWEBZgFxAXoBjQGRAaQBsQG6Ab8BwQHDAcUBzAHWAdgB2gHcAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAtcC3AL4AvwDGAMlAy4DPQNIA1ADUgNUA1YDWwNzA3cDjwOlA6oDwgPGA94D6gPvA/ID9wQNBBEEJwQzBEUESARNAAAAAAAAAgEAAAAAAAAAcQAAAAAAAAAAAAAAAAAABE8=
 </attribute>
-        <attribute name="sort" type="int16">4</attribute>
+        <attribute name="sort" type="int16">5</attribute>
         <attribute name="name" type="string">CSS</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -381,7 +381,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXxAQdmFsdWVGb3JLZXlQYXRoOtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtZdGFncy5uYW1l0iorPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz4/MF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0iorQUJeTlNNdXRhYmxlQXJyYXmjQUMwV05TQXJyYXnSKitFRl8QE05TS2V5UGF0aEV4cHJlc3Npb26kR0hJMF8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27THUsLTE1OXxAPTlNDb25zdGFudFZhbHVlEACAD4AQU2dpdNIqK1FSXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNTVDBfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtRWVwtYWVpbIV5OU09wZXJhdG9yVHlwZVpOU01vZGlmaWVyV05TRmxhZ3MQYxACgBLSKitdXl8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNfYDBfEBVOU0luUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjZGUwXxAVTlNDb21wYXJpc29uUHJlZGljYXRlW05TUHJlZGljYXRl0iorQ2eiQzDSKitpal8QE05TQ29tcG91bmRQcmVkaWNhdGWja2wwXxATTlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRyb290gAEACAARABoAIwAtADIANwBQAFYAXQBvAIkAkACSAJQAlgCbAKYAqACqAKwAtQDIANwA8gD0APYA+AD6AQUBGAEnATEBPQE/AUEBQwFFAUcBWgFfAWEBZgFxAXoBjQGRAaQBsQG6Ab8BwQHDAcUBzAHWAdgB2gHcAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAtcC3AL4AvwDGAMlAy4DPQNIA1ADUgNUA1YDWwNzA3cDjwOlA6oDwgPGA94D6gPvA/ID9wQNBBEEJwQzBEUESARNAAAAAAAAAgEAAAAAAAAAcQAAAAAAAAAAAAAAAAAABE8=
 </attribute>
-        <attribute name="sort" type="int16">3</attribute>
+        <attribute name="sort" type="int16">4</attribute>
         <attribute name="name" type="string">Git</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -391,7 +391,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXxAQdmFsdWVGb3JLZXlQYXRoOtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtZdGFncy5uYW1l0iorPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz4/MF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0iorQUJeTlNNdXRhYmxlQXJyYXmjQUMwV05TQXJyYXnSKitFRl8QE05TS2V5UGF0aEV4cHJlc3Npb26kR0hJMF8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27THUsLTE1OXxAPTlNDb25zdGFudFZhbHVlEACAD4AQVmpRdWVyedIqK1FSXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNTVDBfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtRWVwtYWVpbIV5OU09wZXJhdG9yVHlwZVpOU01vZGlmaWVyV05TRmxhZ3MQYxACgBLSKitdXl8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNfYDBfEBVOU0luUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjZGUwXxAVTlNDb21wYXJpc29uUHJlZGljYXRlW05TUHJlZGljYXRl0iorQ2eiQzDSKitpal8QE05TQ29tcG91bmRQcmVkaWNhdGWja2wwXxATTlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRyb290gAEACAARABoAIwAtADIANwBQAFYAXQBvAIkAkACSAJQAlgCbAKYAqACqAKwAtQDIANwA8gD0APYA+AD6AQUBGAEnATEBPQE/AUEBQwFFAUcBWgFfAWEBZgFxAXoBjQGRAaQBsQG6Ab8BwQHDAcUBzAHWAdgB2gHcAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAtoC3wL7Av8DGwMoAzEDQANLA1MDVQNXA1kDXgN2A3oDkgOoA60DxQPJA+ED7QPyA/UD+gQQBBQEKgQ2BEgESwRQAAAAAAAAAgEAAAAAAAAAcQAAAAAAAAAAAAAAAAAABFI=
 </attribute>
-        <attribute name="sort" type="int16">2</attribute>
+        <attribute name="sort" type="int16">3</attribute>
         <attribute name="name" type="string">jQuery</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -401,7 +401,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXxAQdmFsdWVGb3JLZXlQYXRoOtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtZdGFncy5uYW1l0iorPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz4/MF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0iorQUJeTlNNdXRhYmxlQXJyYXmjQUMwV05TQXJyYXnSKitFRl8QE05TS2V5UGF0aEV4cHJlc3Npb26kR0hJMF8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27THUsLTE1OXxAPTlNDb25zdGFudFZhbHVlEACAD4AQWkphdmFzY3JpcHTSKitRUl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jU1QwXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvblxOU0V4cHJlc3Npb27UVlcLWFlaWyFeTlNPcGVyYXRvclR5cGVaTlNNb2RpZmllcldOU0ZsYWdzEGMQAoAS0iorXV5fEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjX2AwXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIqK2JjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2RlMF8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZVtOU1ByZWRpY2F0ZdIqK0NnokMw0ioraWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2tsMF8QE05TQ29tcG91bmRQcmVkaWNhdGVbTlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AbwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyADcAPIA9AD2APgA+gEFARgBJwExAT0BPwFBAUMBRQFHAVoBXwFhAWYBcQF6AY0BkQGkAbEBugG/AcEBwwHFAcwB1gHYAdoB3AHmAesCCgIOAi0COgI/Ak4CUgJaAl8CdQJ6ApACpwK0ArsCzQLPAtEC0wLeAuMC/wMDAx8DLAM1A0QDTwNXA1kDWwNdA2IDegN+A5YDrAOxA8kDzQPlA/ED9gP5A/4EFAQYBC4EOgRMBE8EVAAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAARW
 </attribute>
-        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="sort" type="int16">2</attribute>
         <attribute name="name" type="string">Javascript</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
@@ -411,10 +411,44 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
 FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXxAQdmFsdWVGb3JLZXlQYXRoOtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtZdGFncy5uYW1l0iorPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz4/MF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0iorQUJeTlNNdXRhYmxlQXJyYXmjQUMwV05TQXJyYXnSKitFRl8QE05TS2V5UGF0aEV4cHJlc3Npb26kR0hJMF8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27THUsLTE1OXxAPTlNDb25zdGFudFZhbHVlEACAD4AQVlJlZ0V4cNIqK1FSXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNTVDBfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uXE5TRXhwcmVzc2lvbtRWVwtYWVpbIV5OU09wZXJhdG9yVHlwZVpOU01vZGlmaWVyV05TRmxhZ3MQYxACgBLSKitdXl8QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNfYDBfEBVOU0luUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorYmNfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjZGUwXxAVTlNDb21wYXJpc29uUHJlZGljYXRlW05TUHJlZGljYXRl0iorQ2eiQzDSKitpal8QE05TQ29tcG91bmRQcmVkaWNhdGWja2wwXxATTlNDb21wb3VuZFByZWRpY2F0ZVtOU1ByZWRpY2F0ZV8QD05TS2V5ZWRBcmNoaXZlctFvcFRyb290gAEACAARABoAIwAtADIANwBQAFYAXQBvAIkAkACSAJQAlgCbAKYAqACqAKwAtQDIANwA8gD0APYA+AD6AQUBGAEnATEBPQE/AUEBQwFFAUcBWgFfAWEBZgFxAXoBjQGRAaQBsQG6Ab8BwQHDAcUBzAHWAdgB2gHcAeYB6wIKAg4CLQI6Aj8CTgJSAloCXwJ1AnoCkAKnArQCuwLNAs8C0QLTAtoC3wL7Av8DGwMoAzEDQANLA1MDVQNXA1kDXgN2A3oDkgOoA60DxQPJA+ED7QPyA/UD+gQQBBQEKgQ2BEgESwRQAAAAAAAAAgEAAAAAAAAAcQAAAAAAAAAAAAAAAAAABFI=
 </attribute>
-        <attribute name="sort" type="int16">5</attribute>
+        <attribute name="sort" type="int16">6</attribute>
         <attribute name="name" type="string">RegExp</attribute>
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="SEARCH" id="z152">
+        <attribute name="criteria" type="binary">YnBsaXN0MDDUAQIDBAUGbW5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
+FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVWJGNsYXNzgAIQAYAV0gsQERJaTlMub2JqZWN0c4AUoROAA9QVFgsXGBkaG18QEE5TTGVmdEV4cHJlc3Npb25fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KABIAOgBOAEdUdHgsfICEiIyQlXxAQTlNFeHByZXNzaW9uVHlwZV5OU1NlbGVjdG9yTmFtZVlOU09wZXJhbmRbTlNBcmd1bWVudHMQA4AFgA2ABoAIXxAQdmFsdWVGb3JLZXlQYXRoOtIdCw0ogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZFeHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09iamVjdNILEDIzgAyhNIAJ0zYdCzc4OVlOU0tleVBhdGiAChAKgAtZdGFncy5uYW1l0iorPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz4/MF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb25cTlNFeHByZXNzaW9u0iorQUJeTlNNdXRhYmxlQXJyYXmjQUMwV05TQXJyYXnSKitFRl8QE05TS2V5UGF0aEV4cHJlc3Npb26kR0hJMF8QE05TS2V5UGF0aEV4cHJlc3Npb25fEBROU0Z1bmN0aW9uRXhwcmVzc2lvblxOU0V4cHJlc3Npb27THUsLTE1OXxAPTlNDb25zdGFudFZhbHVlEACAD4AQVEJhc2jSKitRUl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jU1QwXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvblxOU0V4cHJlc3Npb27UVlcLWFlaWyFeTlNPcGVyYXRvclR5cGVaTlNNb2RpZmllcldOU0ZsYWdzEGMQAoAS0iorXV5fEBVOU0luUHJlZGljYXRlT3BlcmF0b3KjX2AwXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVyYXRvctIqK2JjXxAVTlNDb21wYXJpc29uUHJlZGljYXRlo2RlMF8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZVtOU1ByZWRpY2F0ZdIqK0NnokMw0ioraWpfEBNOU0NvbXBvdW5kUHJlZGljYXRlo2tsMF8QE05TQ29tcG91bmRQcmVkaWNhdGVbTlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2ZXLRb3BUcm9vdIABAAgAEQAaACMALQAyADcAUABWAF0AbwCJAJAAkgCUAJYAmwCmAKgAqgCsALUAyADcAPIA9AD2APgA+gEFARgBJwExAT0BPwFBAUMBRQFHAVoBXwFhAWYBcQF6AY0BkQGkAbEBugG/AcEBwwHFAcwB1gHYAdoB3AHmAesCCgIOAi0COgI/Ak4CUgJaAl8CdQJ6ApACpwK0ArsCzQLPAtEC0wLYAt0C+QL9AxkDJgMvAz4DSQNRA1MDVQNXA1wDdAN4A5ADpgOrA8MDxwPfA+sD8APzA/gEDgQSBCgENARGBEkETgAAAAAAAAIBAAAAAAAAAHEAAAAAAAAAAAAAAAAAAARQ
+</attribute>
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">Bash</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="TAG" id="z153">
+        <attribute name="name" type="string">clearfix</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145"></relationship>
+    </object>
+    <object type="TAG" id="z154">
+        <attribute name="name" type="string">positioning</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z141"></relationship>
+    </object>
+    <object type="TAG" id="z155">
+        <attribute name="name" type="string">floats</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145"></relationship>
+    </object>
+    <object type="TAG" id="z156">
+        <attribute name="name" type="string">clear</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z145"></relationship>
+    </object>
+    <object type="TAG" id="z157">
+        <attribute name="name" type="string">shorthand</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z143"></relationship>
+    </object>
+    <object type="TAG" id="z158">
+        <attribute name="name" type="string">font</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z143"></relationship>
     </object>
 </database>
