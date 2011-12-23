@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>142</nextObjectID>
+        <nextObjectID>144</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -99,7 +99,7 @@ Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2Fm
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z141 z108"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z143 z141 z108"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
@@ -334,5 +334,21 @@ OiAzMDBweDsKICAgcG9zaXRpb246IGFic29sdXRlOwogICBsZWZ0OiA1MCU7CiAgIHRvcDogNTAlOwog
         <attribute name="content" type="binary">PGRpdiBjbGFzcz0iY2VudGVyIj48L2Rpdj4=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z141"></relationship>
+    </object>
+    <object type="SNIPPET" id="z143">
+        <attribute name="name" type="string">Syntax</attribute>
+        <attribute name="modified" type="date">346293432.35430198907852172852</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z144"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+    </object>
+    <object type="ASSET" id="z144">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">LyogU3ludGF4ICovCgpib2R5IHsKICAgZm9udDogZm9udC1zdHlsZSBmb250LXZhcmlhbnQgZm9u
+dC13ZWlnaHQgZm9udC1zaXplL2xpbmUtaGVpZ2h0IGZvbnQtZmFtaWx5Owp9CgovKiBJbiBVc2UgKi8KCmJvZHkgewogICBmb250OiBpdGFsaWMgc21hbGwtY2FwcyBub3JtYWwgMTNweC8xNTAlIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z143"></relationship>
     </object>
 </database>
