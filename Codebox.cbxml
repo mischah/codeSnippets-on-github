@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>160</nextObjectID>
+        <nextObjectID>164</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -458,5 +458,28 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
     <object type="TAG" id="z160">
         <attribute name="name" type="string">selection</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z161">
+        <attribute name="name" type="string">scrollbar</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z162"></relationship>
+    </object>
+    <object type="SNIPPET" id="z162">
+        <attribute name="name" type="string">Force Vertical Scrollbar</attribute>
+        <attribute name="modified" type="date">346294460.95432400703430175781</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z163"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z164 z161"></relationship>
+    </object>
+    <object type="ASSET" id="z163">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">aHRtbCB7CiAgICAgICBvdmVyZmxvdy15OiBzY3JvbGw7Cn0=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z162"></relationship>
+    </object>
+    <object type="TAG" id="z164">
+        <attribute name="name" type="string">css</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z162"></relationship>
     </object>
 </database>
