@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>158</nextObjectID>
+        <nextObjectID>160</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -91,11 +91,11 @@ Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2Fm
     </object>
     <object type="SNIPPET" id="z108">
         <attribute name="name" type="string">Farbige Markierung</attribute>
-        <attribute name="modified" type="date">340383444.65206199884414672852</attribute>
+        <attribute name="modified" type="date">346294397.19638401269912719727</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z107"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z109 z159 z160"></relationship>
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
@@ -321,8 +321,8 @@ OiAzMDBweDsKICAgcG9zaXRpb246IGFic29sdXRlOwogICBsZWZ0OiA1MCU7CiAgIHRvcDogNTAlOwog
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z141"></relationship>
     </object>
     <object type="SNIPPET" id="z141">
-        <attribute name="name" type="string">.center {</attribute>
-        <attribute name="modified" type="date">346294326.91827899217605590820</attribute>
+        <attribute name="name" type="string">Center an Image/Div Horizontally and Vertically</attribute>
+        <attribute name="modified" type="date">346294368.29920202493667602539</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z142 z140"></relationship>
@@ -450,5 +450,13 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
     <object type="TAG" id="z158">
         <attribute name="name" type="string">font</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z143"></relationship>
+    </object>
+    <object type="TAG" id="z159">
+        <attribute name="name" type="string">text</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
+    </object>
+    <object type="TAG" id="z160">
+        <attribute name="name" type="string">selection</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108"></relationship>
     </object>
 </database>
