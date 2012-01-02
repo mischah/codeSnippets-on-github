@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>170</nextObjectID>
+        <nextObjectID>172</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -78,7 +78,7 @@ CW51bWJlciA9ICcnICsgbnVtYmVyOwoJaWYgKG51bWJlci5sZW5ndGggPiAzKSB7CgkJdmFyIG1vZCA9
     </object>
     <object type="TAG" id="z106">
         <attribute name="name" type="string">Javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z118 z103 z120 z132"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z118 z172 z103 z120 z132"></relationship>
     </object>
     <object type="ASSET" id="z107">
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
@@ -517,6 +517,22 @@ IHByaXZhdGUiOwoJdmFyIHByaXZhdGVGdW5jID0gZnVuY3Rpb24oKXsgY29uc29sZS5sb2coIkZyb20g
     </object>
     <object type="TAG" id="z170">
         <attribute name="name" type="string">Closures</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z172"></relationship>
+    </object>
+    <object type="ASSET" id="z171">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gbWFrZUFkZEZ1bmN0aW9uKGFtb3VudCkgewoJcmV0dXJuIGZ1bmN0aW9uIChudW1i
+ZXIpIHsKCQlyZXR1cm4gbnVtYmVyICsgYW1vdW50OwoJfQp9Cgp2YXIgYWRkVHdvID0gbWFrZUFkZEZ1bmN0aW9uKDIpOwp2YXIgYWRkRml2ZSA9IG1ha2VBZGRGdW5jdGlvbig1KTsKCnNob3coYWRkVHdvKDEpKTsKc2hvdyhhZGRGaXZlKDEpKTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z172"></relationship>
+    </object>
+    <object type="SNIPPET" id="z172">
+        <attribute name="name" type="string">Variable Funktionen via Closures</attribute>
+        <attribute name="modified" type="date">347221631.52170902490615844727</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z171"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z170"></relationship>
     </object>
 </database>
