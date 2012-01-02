@@ -517,7 +517,7 @@ IHByaXZhdGUiOwoJdmFyIHByaXZhdGVGdW5jID0gZnVuY3Rpb24oKXsgY29uc29sZS5sb2coIkZyb20g
     </object>
     <object type="TAG" id="z170">
         <attribute name="name" type="string">Closures</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z172"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z173 z172"></relationship>
     </object>
     <object type="ASSET" id="z171">
         <attribute name="sort" type="int32">-1</attribute>
@@ -537,11 +537,11 @@ ZXIpIHsKCQlyZXR1cm4gbnVtYmVyICsgYW1vdW50OwoJfQp9Cgp2YXIgYWRkVHdvID0gbWFrZUFkZEZ1
     </object>
     <object type="SNIPPET" id="z173">
         <attribute name="name" type="string">Simple closure example</attribute>
-        <attribute name="modified" type="date">347222428.39404499530792236328</attribute>
+        <attribute name="modified" type="date">347222461.77104699611663818359</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z174"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z170"></relationship>
     </object>
     <object type="ASSET" id="z174">
         <attribute name="sort" type="int32">-1</attribute>
