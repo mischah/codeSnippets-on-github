@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>172</nextObjectID>
+        <nextObjectID>174</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -534,5 +534,21 @@ ZXIpIHsKCQlyZXR1cm4gbnVtYmVyICsgYW1vdW50OwoJfQp9Cgp2YXIgYWRkVHdvID0gbWFrZUFkZEZ1
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z171"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z170"></relationship>
+    </object>
+    <object type="SNIPPET" id="z173">
+        <attribute name="name" type="string">function customHello(name) {</attribute>
+        <attribute name="modified" type="date">347222150.29413801431655883789</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z174"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z174">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gY3VzdG9tSGVsbG8obmFtZSkgewogICAgdmFyIG91dHB1dCA9ICdHb29kIG1vcm5p
+bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0KG91dHB1dCk7CiAgICB9CiAgICByZXR1cm4gaGVsbG9BbGVydDsKfQoKdmFyIGZvbyA9IGN1c3RvbUhlbGxvKCdKb2huIERvZScpOwpmb28oKTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z173"></relationship>
     </object>
 </database>
