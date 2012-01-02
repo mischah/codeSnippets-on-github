@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>169</nextObjectID>
+        <nextObjectID>170</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -508,11 +508,15 @@ IHByaXZhdGUiOwoJdmFyIHByaXZhdGVGdW5jID0gZnVuY3Rpb24oKXsgY29uc29sZS5sb2coIkZyb20g
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z169"></relationship>
     </object>
     <object type="SNIPPET" id="z169">
-        <attribute name="name" type="string">function publicPrivate(){</attribute>
-        <attribute name="modified" type="date">347220580.90505397319793701172</attribute>
+        <attribute name="name" type="string">Private variables via closures</attribute>
+        <attribute name="modified" type="date">347220715.26231402158737182617</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z168"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z170"></relationship>
+    </object>
+    <object type="TAG" id="z170">
+        <attribute name="name" type="string">Closures</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169"></relationship>
     </object>
 </database>
