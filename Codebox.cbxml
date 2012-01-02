@@ -503,7 +503,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gcHVibGljUHJpdmF0ZSgpewoJdmFyIHByaXZhdGVQcm9wID0gIlRoaXMgb25lIGlz
-IHByaXZhdGUiOwoJdmFyIHByaXZhdGVGdW5jID0gZnVuY3Rpb24oKXsgY29uc29sZS5sb2coIkZyb20gcHJpdmF0ZSBmdW5jOiIsIHByaXZhdGVQcm9wKTsgfTsKCXByaXZhdGVGdW5jKCk7CiAgICAgcmV0dXJuIHsKICAgICAgICBwdWJsaWNQcm9wOiAiVGhpcyBvbmUgaXMgcHVibGljIgogICAgIH0KfQoKdmFyIG15T2JqID0gbmV3IHB1YmxpY1ByaXZhdGUoKTsKY29uc29sZS5sb2coIkZyb20gb3V0c2lkZToiLCBteU9iai5wdWJsaWNQcm9wKTsKY29uc29sZS5sb2coIkZyb20gb3V0c2lkZToiLCBteU9iai5wcml2YXRlUHJvcCk7
+IHByaXZhdGUiOwoJdmFyIHByaXZhdGVGdW5jID0gZnVuY3Rpb24oKXsgY29uc29sZS5sb2coIkZyb20gcHJpdmF0ZSBmdW5jOiIsIHByaXZhdGVQcm9wKTsgfTsKCXByaXZhdGVGdW5jKCk7CglyZXR1cm4gewoJCXB1YmxpY1Byb3A6ICJUaGlzIG9uZSBpcyBwdWJsaWMiCgl9Cn0KCnZhciBteU9iaiA9IG5ldyBwdWJsaWNQcml2YXRlKCk7CmNvbnNvbGUubG9nKCJGcm9tIG91dHNpZGU6IiwgbXlPYmoucHVibGljUHJvcCk7CmNvbnNvbGUubG9nKCJGcm9tIG91dHNpZGU6IiwgbXlPYmoucHJpdmF0ZVByb3ApOw==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z169"></relationship>
     </object>
