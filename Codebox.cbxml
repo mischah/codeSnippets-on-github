@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>190</nextObjectID>
+        <nextObjectID>191</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -78,7 +78,7 @@ CW51bWJlciA9ICcnICsgbnVtYmVyOwoJaWYgKG51bWJlci5sZW5ndGggPiAzKSB7CgkJdmFyIG1vZCA9
     </object>
     <object type="TAG" id="z106">
         <attribute name="name" type="string">Javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z132 z172 z181 z169 z173 z120 z118 z177 z103 z188"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z132 z172 z181 z169 z173 z120 z190 z118 z177 z103 z188"></relationship>
     </object>
     <object type="ASSET" id="z107">
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
@@ -553,7 +553,7 @@ bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0
     </object>
     <object type="TAG" id="z175">
         <attribute name="name" type="string">Functions</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z173 z177 z172"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z177 z190 z173 z172"></relationship>
     </object>
     <object type="TAG" id="z176">
         <attribute name="name" type="string">Objects</attribute>
@@ -655,11 +655,15 @@ YXIgcmVzdWx0ID0gMTsKICBpZiAoZXhwb25lbnQgPT09IHVuZGVmaW5lZCkKICAgIGV4cG9uZW50ID0g
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z190"></relationship>
     </object>
     <object type="SNIPPET" id="z190">
-        <attribute name="name" type="string">// optional argument</attribute>
-        <attribute name="modified" type="date">347304926.17532002925872802734</attribute>
+        <attribute name="name" type="string">Functions with optional arguments</attribute>
+        <attribute name="modified" type="date">347305000.36698698997497558594</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z189"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z175 z191"></relationship>
+    </object>
+    <object type="TAG" id="z191">
+        <attribute name="name" type="string">Arguments</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z190"></relationship>
     </object>
 </database>
