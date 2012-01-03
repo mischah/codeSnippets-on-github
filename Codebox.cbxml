@@ -573,7 +573,7 @@ See https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Functio
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9vQmFyIChmb28sIGJhcikgewogIHJldHVybiBjb25zb2xlLmxvZyhmb28gKyBi
-YXIpOwp9OwoKZm9vQmFyKCdodScsJ2hhJyk7CmZvb0Jhci5hcHBseShudWxsLFsnaGknLCdoYSddKTs=
+YXIpOwp9Cgpmb29CYXIoJ2h1JywnaGEnKTsKZm9vQmFyLmFwcGx5KG51bGwsWydoaScsJ2hhJ10pOw==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z177"></relationship>
     </object>
