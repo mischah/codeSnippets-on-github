@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>181</nextObjectID>
+        <nextObjectID>182</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -582,7 +582,7 @@ YmFyKTsKfSkoJ2d1JywgJ2d1Y2snKTsKCmZvb0JhcignaHUnLCdoYScpOwpmb29CYXIuYXBwbHkobnVs
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169"></relationship>
     </object>
     <object type="ASSET" id="z180">
-        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">forEach.js</attribute>
         <attribute name="content" type="binary">Ly8gUHJvZHVjdGlvbiBzdGVwcyBvZiBFQ01BLTI2MiwgRWRpdGlvbiA1LCAxNS40LjQuMTgKLy8g
 UmVmZXJlbmNlOiBodHRwOi8vZXM1LmdpdGh1Yi5jb20vI3gxNS40LjQuMTgKaWYgKCAhQXJyYXkucHJvdG90eXBlLmZvckVhY2ggKSB7CgogIEFycmF5LnByb3RvdHlwZS5mb3JFYWNoID0gZnVuY3Rpb24oIGNhbGxiYWNrLCB0aGlzQXJnICkgewoKICAgIHZhciBULCBrOwoKICAgIGlmICggdGhpcyA9PSBudWxsICkgewogICAgICB0aHJvdyBuZXcgVHlwZUVycm9yKCAiIHRoaXMgaXMgbnVsbCBvciBub3QgZGVmaW5lZCIgKTsKICAgIH0KCiAgICAvLyAxLiBMZXQgTyBiZSB0aGUgcmVzdWx0IG9mIGNhbGxpbmcgVG9PYmplY3QgcGFzc2luZyB0aGUgfHRoaXN8IHZhbHVlIGFzIHRoZSBhcmd1bWVudC4KICAgIHZhciBPID0gT2JqZWN0KHRoaXMpOwoKICAgIC8vIDIuIExldCBsZW5WYWx1ZSBiZSB0aGUgcmVzdWx0IG9mIGNhbGxpbmcgdGhlIEdldCBpbnRlcm5hbCBtZXRob2Qgb2YgTyB3aXRoIHRoZSBhcmd1bWVudCAibGVuZ3RoIi4KICAgIC8vIDMuIExldCBsZW4gYmUgVG9VaW50MzIobGVuVmFsdWUpLgogICAgdmFyIGxlbiA9IE8ubGVuZ3RoID4+PiAwOyAvLyBIYWNrIHRvIGNvbnZlcnQgTy5sZW5ndGggdG8gYSBVSW50MzIKCiAgICAvLyA0LiBJZiBJc0NhbGxhYmxlKGNhbGxiYWNrKSBpcyBmYWxzZSwgdGhyb3cgYSBUeXBlRXJyb3IgZXhjZXB0aW9uLgogICAgLy8gU2VlOiBodHRwOi8vZXM1LmdpdGh1Yi5jb20vI3g5LjExCiAgICBpZiAoIHt9LnRvU3RyaW5nLmNhbGwoY2FsbGJhY2spICE9ICJbb2JqZWN0IEZ1bmN0aW9uXSIgKSB7CiAgICAgIHRocm93IG5ldyBUeXBlRXJyb3IoIGNhbGxiYWNrICsgIiBpcyBub3QgYSBmdW5jdGlvbiIgKTsKICAgIH0KCiAgICAvLyA1LiBJZiB0aGlzQXJnIHdhcyBzdXBwbGllZCwgbGV0IFQgYmUgdGhpc0FyZzsgZWxzZSBsZXQgVCBiZSB1bmRlZmluZWQuCiAgICBpZiAoIHRoaXNBcmcgKSB7CiAgICAgIFQgPSB0aGlzQXJnOwogICAgfQoKICAgIC8vIDYuIExldCBrIGJlIDAKICAgIGsgPSAwOwoKICAgIC8vIDcuIFJlcGVhdCwgd2hpbGUgayA8IGxlbgogICAgd2hpbGUoIGsgPCBsZW4gKSB7CgogICAgICB2YXIga1ZhbHVlOwoKICAgICAgLy8gYS4gTGV0IFBrIGJlIFRvU3RyaW5nKGspLgogICAgICAvLyAgIFRoaXMgaXMgaW1wbGljaXQgZm9yIExIUyBvcGVyYW5kcyBvZiB0aGUgaW4gb3BlcmF0b3IKICAgICAgLy8gYi4gTGV0IGtQcmVzZW50IGJlIHRoZSByZXN1bHQgb2YgY2FsbGluZyB0aGUgSGFzUHJvcGVydHkgaW50ZXJuYWwgbWV0aG9kIG9mIE8gd2l0aCBhcmd1bWVudCBQay4KICAgICAgLy8gICBUaGlzIHN0ZXAgY2FuIGJlIGNvbWJpbmVkIHdpdGggYwogICAgICAvLyBjLiBJZiBrUHJlc2VudCBpcyB0cnVlLCB0aGVuCiAgICAgIGlmICggayBpbiBPICkgewoKICAgICAgICAvLyBpLiBMZXQga1ZhbHVlIGJlIHRoZSByZXN1bHQgb2YgY2FsbGluZyB0aGUgR2V0IGludGVybmFsIG1ldGhvZCBvZiBPIHdpdGggYXJndW1lbnQgUGsuCiAgICAgICAga1ZhbHVlID0gT1sgayBdOwoKICAgICAgICAvLyBpaS4gQ2FsbCB0aGUgQ2FsbCBpbnRlcm5hbCBtZXRob2Qgb2YgY2FsbGJhY2sgd2l0aCBUIGFzIHRoZSB0aGlzIHZhbHVlIGFuZAogICAgICAgIC8vIGFyZ3VtZW50IGxpc3QgY29udGFpbmluZyBrVmFsdWUsIGssIGFuZCBPLgogICAgICAgIGNhbGxiYWNrLmNhbGwoIFQsIGtWYWx1ZSwgaywgTyApOwogICAgICB9CiAgICAgIC8vIGQuIEluY3JlYXNlIGsgYnkgMS4KICAgICAgaysrOwogICAgfQogICAgLy8gOC4gcmV0dXJuIHVuZGVmaW5lZAogIH07Cn0=
@@ -594,7 +594,15 @@ UmVmZXJlbmNlOiBodHRwOi8vZXM1LmdpdGh1Yi5jb20vI3gxNS40LjQuMTgKaWYgKCAhQXJyYXkucHJv
         <attribute name="modified" type="date">347303876.16557002067565917969</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z180"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z180 z182"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z182">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">calling forEach.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gbG9nQXJyYXlFbGVtZW50cyhlbGVtZW50LCBpbmRleCwgYXJyYXkpIHsKICAgIGNv
+bnNvbGUubG9nKCJhWyIgKyBpbmRleCArICJdID0gIiArIGVsZW1lbnQpOwp9ClsyLCA1LCA5XS5mb3JFYWNoKGxvZ0FycmF5RWxlbWVudHMpOwovLyBsb2dzOgovLyBhWzBdID0gMgovLyBhWzFdID0gNQovLyBhWzJdID0gOQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z181"></relationship>
     </object>
 </database>
