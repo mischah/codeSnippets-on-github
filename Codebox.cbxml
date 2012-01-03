@@ -568,6 +568,8 @@ bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z175"></relationship>
     </object>
     <object type="ASSET" id="z178">
+        <attribute name="notes" type="string">Calls a function with a given this value and arguments provided as an array.
+See</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9vQmFyIChmb28sIGJhcikgewogIHJldHVybiBjb25zb2xlLmxvZyhmb28gKyBi
