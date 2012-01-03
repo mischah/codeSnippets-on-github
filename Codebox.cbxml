@@ -738,6 +738,9 @@ https://developer.mozilla.org/en/JavaScript/Reference/Statements/while</attribut
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="ASSET" id="z204">
+        <attribute name="notes" type="string">Creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.
+
+</attribute>
         <attribute name="sort" type="int32">3</attribute>
         <attribute name="path" type="string">do … while.js</attribute>
         <attribute name="content" type="binary">ZG8gewoJaSArPSAxOwoJY29uc29sZS5sb2coaSk7Cn0gd2hpbGUgKGkgPCA1KTs=
