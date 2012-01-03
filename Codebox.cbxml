@@ -628,6 +628,7 @@ bnNvbGUubG9nKCJhWyIgKyBpbmRleCArICJdID0gIiArIGVsZW1lbnQpOwp9ClsyLCA1LCA5XS5mb3JF
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="ASSET" id="z187">
+        <attribute name="notes" type="string">https://developer.mozilla.org/en/JavaScript/Reference/Statements/for</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">Ly8gZm9yCmZvciAodmFyIG51bWJlciA9IDA7IG51bWJlciA8PSAxMjsgbnVtYmVyID0gbnVtYmVy
@@ -636,8 +637,8 @@ ICsgMikgewoJY29uc29sZS5sb2cobnVtYmVyKTsKfQo=
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="SNIPPET" id="z188">
-        <attribute name="name" type="string">for - </attribute>
-        <attribute name="modified" type="date">347304550.93918502330780029297</attribute>
+        <attribute name="name" type="string">native Javascript loops</attribute>
+        <attribute name="modified" type="date">347304637.83265399932861328125</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z187"></relationship>
