@@ -78,7 +78,7 @@ CW51bWJlciA9ICcnICsgbnVtYmVyOwoJaWYgKG51bWJlci5sZW5ndGggPiAzKSB7CgkJdmFyIG1vZCA9
     </object>
     <object type="TAG" id="z106">
         <attribute name="name" type="string">Javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z103 z132 z118 z120 z169 z172 z173"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z103 z132 z118 z120 z169 z172 z177 z173"></relationship>
     </object>
     <object type="ASSET" id="z107">
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
@@ -517,7 +517,7 @@ IHByaXZhdGUiOwoJdmFyIHByaXZhdGVGdW5jID0gZnVuY3Rpb24oKXsgY29uc29sZS5sb2coIkZyb20g
     </object>
     <object type="TAG" id="z170">
         <attribute name="name" type="string">Closures</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z172 z177 z173 z169"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z172 z173 z169"></relationship>
     </object>
     <object type="ASSET" id="z171">
         <attribute name="sort" type="int32">-1</attribute>
@@ -528,8 +528,8 @@ ZXIpIHsKCQlyZXR1cm4gbnVtYmVyICsgYW1vdW50OwoJfQp9Cgp2YXIgYWRkVHdvID0gbWFrZUFkZEZ1
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z172"></relationship>
     </object>
     <object type="SNIPPET" id="z172">
-        <attribute name="name" type="string">Variable Funktionen via Closures</attribute>
-        <attribute name="modified" type="date">347299139.43868398666381835938</attribute>
+        <attribute name="name" type="string">Variable Functions via Closures</attribute>
+        <attribute name="modified" type="date">347299216.70235997438430786133</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z171"></relationship>
@@ -553,23 +553,23 @@ bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0
     </object>
     <object type="TAG" id="z175">
         <attribute name="name" type="string">Functions</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z173 z172"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z173 z177 z172"></relationship>
     </object>
     <object type="TAG" id="z176">
         <attribute name="name" type="string">Objects</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169"></relationship>
     </object>
     <object type="SNIPPET" id="z177">
-        <attribute name="name" type="string">function fooBar (foo, bar) {</attribute>
-        <attribute name="modified" type="date">347299170.27907299995422363281</attribute>
+        <attribute name="name" type="string">Calling functions via the apply method</attribute>
+        <attribute name="modified" type="date">347299249.73743200302124023438</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z178"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z170"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z175"></relationship>
     </object>
     <object type="ASSET" id="z178">
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9vQmFyIChmb28sIGJhcikgewogIHJldHVybiBjb25zb2xlLmxvZyhmb28gKyBi
 YXIpOwp9KCk7Cgpmb29CYXIoJ2h1JywnaGEnKTsKZm9vQmFyLmFwcGx5KG51bGwsWydoaScsJ2hhJ10pOw==
 </attribute>
