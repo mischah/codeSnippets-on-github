@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>203</nextObjectID>
+        <nextObjectID>204</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -643,7 +643,7 @@ dW1iZXIgKyAyKSB7Cgljb25zb2xlLmxvZyhudW1iZXIpOwp9Cg==
         <attribute name="modified" type="date">347306138.75789600610733032227</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z192 z187 z203"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z192 z203 z187 z204"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z184 z201 z193 z202 z194 z106 z186"></relationship>
     </object>
     <object type="ASSET" id="z189">
@@ -735,6 +735,13 @@ https://developer.mozilla.org/en/JavaScript/Reference/Statements/while</attribut
         <attribute name="sort" type="int32">2</attribute>
         <attribute name="path" type="string">while.js</attribute>
         <attribute name="content" type="binary">dmFyIG4gPSAwOwp2YXIgeCA9IDA7Cgp3aGlsZSAobiA8IDMpIHsKCW4gKys7Cgl4ICs9IG47Cn0=</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="ASSET" id="z204">
+        <attribute name="sort" type="int32">3</attribute>
+        <attribute name="path" type="string">do … while.js</attribute>
+        <attribute name="content" type="binary">ZG8gewoJaSArPSAxOwoJY29uc29sZS5sb2coaSk7Cn0gd2hpbGUgKGkgPCA1KTs=
+</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
 </database>
