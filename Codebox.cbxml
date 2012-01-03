@@ -572,8 +572,8 @@ bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0
 See https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/apply</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
-        <attribute name="content" type="binary">ZnVuY3Rpb24gZm9vQmFyIChmb28sIGJhcikgewogIHJldHVybiBjb25zb2xlLmxvZyhmb28gKyBi
-YXIpOwp9Cgpmb29CYXIoJ2h1JywnaGEnKTsKZm9vQmFyLmFwcGx5KG51bGwsWydoaScsJ2hhJ10pOw==
+        <attribute name="content" type="binary">KGZ1bmN0aW9uIGZvb0JhciAoZm9vLCBiYXIpIHsKICByZXR1cm4gY29uc29sZS5sb2coZm9vICsg
+YmFyKTsKfQoKZm9vQmFyKCdodScsJ2hhJyk7CmZvb0Jhci5hcHBseShudWxsLFsnaGknLCdoYSddKTs=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z177"></relationship>
     </object>
