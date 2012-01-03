@@ -706,7 +706,7 @@ QnVnZXllJzogdHJ1ZSwKICAnTWlzcyBCdXNodGFpbCc6IHRydWUsCiAgJ1doaXRlIEZhbmcnOiB0cnVl
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z195"></relationship>
     </object>
     <object type="ASSET" id="z199">
-        <attribute name="notes" type="string">
+        <attribute name="notes" type="string">Marks a block of statements to try, and specifies a response, should an exception be thrown.
 
 https://developer.mozilla.org/en/JavaScript/Reference/Statements/try...catch</attribute>
         <attribute name="sort" type="int32">-1</attribute>
