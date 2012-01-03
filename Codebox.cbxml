@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>191</nextObjectID>
+        <nextObjectID>192</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -631,8 +631,8 @@ bnNvbGUubG9nKCJhWyIgKyBpbmRleCArICJdID0gIiArIGVsZW1lbnQpOwp9ClsyLCA1LCA5XS5mb3JF
         <attribute name="notes" type="string">Creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement executed in the loop.
 
 https://developer.mozilla.org/en/JavaScript/Reference/Statements/for</attribute>
-        <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">for.js</attribute>
         <attribute name="content" type="binary">Ly8gZm9yCmZvciAodmFyIG51bWJlciA9IDA7IG51bWJlciA8PSAxMjsgbnVtYmVyID0gbnVtYmVy
 ICsgMikgewoJY29uc29sZS5sb2cobnVtYmVyKTsKfQo=
 </attribute>
@@ -643,7 +643,7 @@ ICsgMikgewoJY29uc29sZS5sb2cobnVtYmVyKTsKfQo=
         <attribute name="modified" type="date">347304637.83265399932861328125</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z187"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z192 z187"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z184 z186"></relationship>
     </object>
     <object type="ASSET" id="z189">
@@ -665,5 +665,13 @@ YXIgcmVzdWx0ID0gMTsKICBpZiAoZXhwb25lbnQgPT09IHVuZGVmaW5lZCkKICAgIGV4cG9uZW50ID0g
     <object type="TAG" id="z191">
         <attribute name="name" type="string">Arguments</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z190"></relationship>
+    </object>
+    <object type="ASSET" id="z192">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">for … in.js</attribute>
+        <attribute name="content" type="binary">Ly8gZm9yIOKApiBpbiAKdmFyIGNhdHMgPSB7CiAgJ0J1Z2V5ZSc6IHRydWUsCiAgJ01pc3MgQnVz
+aHRhaWwnOiB0cnVlLAogICdXaGl0ZSBGYW5nJzogdHJ1ZSwKICAnWWVsbG93IEJlc3MnOiB0cnVlLAogICdDYXRoYXJpbmEnOiB0cnVlLAogICdGYXQgSWdvcic6IHRydWUgCn0KCi8vIGxpc3QgdGhlIGNhdHMKZm9yICh2YXIgY2F0IGluIGNhdHMpIHsKICBjb25zb2xlLmxvZyhjYXQpOwp9Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
 </database>
