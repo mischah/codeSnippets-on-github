@@ -599,6 +599,9 @@ UmVmZXJlbmNlOiBodHRwOi8vZXM1LmdpdGh1Yi5jb20vI3gxNS40LjQuMTgKaWYgKCAhQXJyYXkucHJv
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
     <object type="ASSET" id="z182">
+        <attribute name="notes" type="string">forEach is a recent addition to the ECMA-262 standard; as such it may not be present in other implementations of the standard. You can work around this by inserting the following code at the beginning of your scripts, allowing use of forEach in implementations which do not natively support it. This algorithm is exactly the one specified in ECMA-262, 5th edition.
+
+</attribute>
         <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">calling forEach.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gbG9nQXJyYXlFbGVtZW50cyhlbGVtZW50LCBpbmRleCwgYXJyYXkpIHsKICAgIGNv
