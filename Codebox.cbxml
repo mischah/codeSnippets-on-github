@@ -729,6 +729,9 @@ IHJldHVybiBhcnJheVthcnJheS5sZW5ndGggLSAxXTsKICBlbHNlCiAgICB0aHJvdyAiQ2FuIG5vdCB0
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="ASSET" id="z203">
+        <attribute name="notes" type="string">Creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
+
+</attribute>
         <attribute name="sort" type="int32">2</attribute>
         <attribute name="path" type="string">while.js</attribute>
         <attribute name="content" type="binary">dmFyIG4gPSAwOwp2YXIgeCA9IDA7Cgp3aGlsZSAobiA8IDMpIHsKCW4gKys7Cgl4ICs9IG47Cn0=</attribute>
