@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>185</nextObjectID>
+        <nextObjectID>188</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -78,7 +78,7 @@ CW51bWJlciA9ICcnICsgbnVtYmVyOwoJaWYgKG51bWJlci5sZW5ndGggPiAzKSB7CgkJdmFyIG1vZCA9
     </object>
     <object type="TAG" id="z106">
         <attribute name="name" type="string">Javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z132 z172 z181 z169 z173 z120 z118 z177 z103"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z132 z172 z181 z169 z173 z120 z118 z177 z103 z188"></relationship>
     </object>
     <object type="ASSET" id="z107">
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
@@ -617,10 +617,30 @@ bnNvbGUubG9nKCJhWyIgKyBpbmRleCArICJdID0gIiArIGVsZW1lbnQpOwp9ClsyLCA1LCA5XS5mb3JF
     </object>
     <object type="TAG" id="z184">
         <attribute name="name" type="string">loops</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181 z188"></relationship>
     </object>
     <object type="TAG" id="z185">
         <attribute name="name" type="string">forEach</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181"></relationship>
+    </object>
+    <object type="TAG" id="z186">
+        <attribute name="name" type="string">for</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="ASSET" id="z187">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">Ly8gZm9yCmZvciAodmFyIG51bWJlciA9IDA7IG51bWJlciA8PSAxMjsgbnVtYmVyID0gbnVtYmVy
+ICsgMikgewoJY29uc29sZS5sb2cobnVtYmVyKTsKfQo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="SNIPPET" id="z188">
+        <attribute name="name" type="string">for - </attribute>
+        <attribute name="modified" type="date">347304550.93918502330780029297</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z187"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z184 z186"></relationship>
     </object>
 </database>
