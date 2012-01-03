@@ -734,7 +734,9 @@ IHJldHVybiBhcnJheVthcnJheS5sZW5ndGggLSAxXTsKICBlbHNlCiAgICB0aHJvdyAiQ2FuIG5vdCB0
 https://developer.mozilla.org/en/JavaScript/Reference/Statements/while</attribute>
         <attribute name="sort" type="int32">2</attribute>
         <attribute name="path" type="string">while.js</attribute>
-        <attribute name="content" type="binary">dmFyIG4gPSAwOwp2YXIgeCA9IDA7Cgp3aGlsZSAobiA8IDMpIHsKCW4gKys7Cgl4ICs9IG47Cn0=</attribute>
+        <attribute name="content" type="binary">Ly8gd2hpbGUgbG9vcAoKdmFyIG4gPSAwOwp2YXIgeCA9IDA7Cgp3aGlsZSAobiA8IDMpIHsKCW4g
+Kys7Cgl4ICs9IG47Cn0=
+</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="ASSET" id="z204">
@@ -743,7 +745,8 @@ https://developer.mozilla.org/en/JavaScript/Reference/Statements/while</attribut
 https://developer.mozilla.org/en/JavaScript/Reference/Statements/do...while</attribute>
         <attribute name="sort" type="int32">3</attribute>
         <attribute name="path" type="string">do … while.js</attribute>
-        <attribute name="content" type="binary">ZG8gewoJaSArPSAxOwoJY29uc29sZS5sb2coaSk7Cn0gd2hpbGUgKGkgPCA1KTs=
+        <attribute name="content" type="binary">Ly8gZG8g4oCmIHdoaWxlIGxvb3AKCmRvIHsKCWkgKz0gMTsKCWNvbnNvbGUubG9nKGkpOwp9IHdo
+aWxlIChpIDwgNSk7
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
