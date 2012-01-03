@@ -633,8 +633,8 @@ bnNvbGUubG9nKCJhWyIgKyBpbmRleCArICJdID0gIiArIGVsZW1lbnQpOwp9ClsyLCA1LCA5XS5mb3JF
 https://developer.mozilla.org/en/JavaScript/Reference/Statements/for</attribute>
         <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">for.js</attribute>
-        <attribute name="content" type="binary">Ly8gZm9yCmZvciAodmFyIG51bWJlciA9IDA7IG51bWJlciA8PSAxMjsgbnVtYmVyID0gbnVtYmVy
-ICsgMikgewoJY29uc29sZS5sb2cobnVtYmVyKTsKfQo=
+        <attribute name="content" type="binary">Ly8gZm9yIGxvb3AKZm9yICh2YXIgbnVtYmVyID0gMDsgbnVtYmVyIDw9IDEyOyBudW1iZXIgPSBu
+dW1iZXIgKyAyKSB7Cgljb25zb2xlLmxvZyhudW1iZXIpOwp9Cg==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
@@ -669,8 +669,8 @@ YXIgcmVzdWx0ID0gMTsKICBpZiAoZXhwb25lbnQgPT09IHVuZGVmaW5lZCkKICAgIGV4cG9uZW50ID0g
     <object type="ASSET" id="z192">
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">for … in.js</attribute>
-        <attribute name="content" type="binary">Ly8gZm9yIOKApiBpbiAKdmFyIGNhdHMgPSB7CiAgJ0J1Z2V5ZSc6IHRydWUsCiAgJ01pc3MgQnVz
-aHRhaWwnOiB0cnVlLAogICdXaGl0ZSBGYW5nJzogdHJ1ZSwKICAnWWVsbG93IEJlc3MnOiB0cnVlLAogICdDYXRoYXJpbmEnOiB0cnVlLAogICdGYXQgSWdvcic6IHRydWUgCn0KCi8vIGxpc3QgdGhlIGNhdHMKZm9yICh2YXIgY2F0IGluIGNhdHMpIHsKICBjb25zb2xlLmxvZyhjYXQpOwp9Cg==
+        <attribute name="content" type="binary">Ly8gZm9yIOKApiBpbiBsb29wCgovLyBvYmplY3QgZGVmaW5pdGlvbgp2YXIgY2F0cyA9IHsKICAn
+QnVnZXllJzogdHJ1ZSwKICAnTWlzcyBCdXNodGFpbCc6IHRydWUsCiAgJ1doaXRlIEZhbmcnOiB0cnVlLAogICdZZWxsb3cgQmVzcyc6IHRydWUsCiAgJ0NhdGhhcmluYSc6IHRydWUsCiAgJ0ZhdCBJZ29yJzogdHJ1ZSAKfQoKLy8gbGlzdCB0aGUgY2F0cwpmb3IgKHZhciBjYXQgaW4gY2F0cykgewogIGNvbnNvbGUubG9nKGNhdCk7Cn0K
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
