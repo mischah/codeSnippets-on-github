@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>199</nextObjectID>
+        <nextObjectID>200</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -687,11 +687,11 @@ QnVnZXllJzogdHJ1ZSwKICAnTWlzcyBCdXNodGFpbCc6IHRydWUsCiAgJ1doaXRlIEZhbmcnOiB0cnVl
     </object>
     <object type="SNIPPET" id="z195">
         <attribute name="name" type="string">Error handling</attribute>
-        <attribute name="modified" type="date">347305981.57030701637268066406</attribute>
+        <attribute name="modified" type="date">347306008.78920602798461914062</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z199"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z196 z197 z198 z106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z196 z200 z197 z198 z106"></relationship>
     </object>
     <object type="TAG" id="z196">
         <attribute name="name" type="string">catch</attribute>
@@ -712,5 +712,9 @@ QnVnZXllJzogdHJ1ZSwKICAnTWlzcyBCdXNodGFpbCc6IHRydWUsCiAgJ1doaXRlIEZhbmcnOiB0cnVl
 IHJldHVybiBhcnJheVthcnJheS5sZW5ndGggLSAxXTsKICBlbHNlCiAgICB0aHJvdyAiQ2FuIG5vdCB0YWtlIHRoZSBsYXN0IGVsZW1lbnQgb2YgYW4gZW1wdHkgYXJyYXkuIjsKfQoKdHJ5IHsKICBjb25zb2xlLmxvZyhsYXN0RWxlbWVudChbXSkpOwp9CgpjYXRjaCAoZXJyb3IpIHsKICBjb25zb2xlLmxvZygiU29tZXRoaW5nIHdlbnQgd3Jvbmc6ICIsIGVycm9yKTsKfQ==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z195"></relationship>
+    </object>
+    <object type="TAG" id="z200">
+        <attribute name="name" type="string"> exception</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z195"></relationship>
     </object>
 </database>
