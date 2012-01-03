@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>200</nextObjectID>
+        <nextObjectID>202</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -639,12 +639,12 @@ dW1iZXIgKyAyKSB7Cgljb25zb2xlLmxvZyhudW1iZXIpOwp9Cg==
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="SNIPPET" id="z188">
-        <attribute name="name" type="string">native Javascript loops</attribute>
-        <attribute name="modified" type="date">347305568.19933700561523437500</attribute>
+        <attribute name="name" type="string">Native Javascript loops</attribute>
+        <attribute name="modified" type="date">347306138.75789600610733032227</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z192 z187"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z193 z194 z186 z184 z106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z184 z201 z193 z202 z194 z106 z186"></relationship>
     </object>
     <object type="ASSET" id="z189">
         <attribute name="sort" type="int32">-1</attribute>
@@ -719,5 +719,13 @@ IHJldHVybiBhcnJheVthcnJheS5sZW5ndGggLSAxXTsKICBlbHNlCiAgICB0aHJvdyAiQ2FuIG5vdCB0
     <object type="TAG" id="z200">
         <attribute name="name" type="string"> exception</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z195"></relationship>
+    </object>
+    <object type="TAG" id="z201">
+        <attribute name="name" type="string">while</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="TAG" id="z202">
+        <attribute name="name" type="string">do … while</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
 </database>
