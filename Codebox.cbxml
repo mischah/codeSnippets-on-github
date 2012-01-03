@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>188</nextObjectID>
+        <nextObjectID>190</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -645,5 +645,21 @@ ICsgMikgewoJY29uc29sZS5sb2cobnVtYmVyKTsKfQo=
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z187"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z184 z186"></relationship>
+    </object>
+    <object type="ASSET" id="z189">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">Ly8gb3B0aW9uYWwgYXJndW1lbnQKZnVuY3Rpb24gcG93ZXIoYmFzZSwgZXhwb25lbnQpIHsKICB2
+YXIgcmVzdWx0ID0gMTsKICBpZiAoZXhwb25lbnQgPT09IHVuZGVmaW5lZCkKICAgIGV4cG9uZW50ID0gMjsKICBmb3IgKHZhciBjb3VudCA9IDA7IGNvdW50IDwgZXhwb25lbnQ7IGNvdW50KyspCiAgICByZXN1bHQgKj0gYmFzZTsKICByZXR1cm4gcmVzdWx0Owp9Cgpjb25zb2xlLmxvZyhwb3dlcigyKSk7CmNvbnNvbGUubG9nKHBvd2VyKDIsMykpOwo=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z190"></relationship>
+    </object>
+    <object type="SNIPPET" id="z190">
+        <attribute name="name" type="string">// optional argument</attribute>
+        <attribute name="modified" type="date">347304926.17532002925872802734</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z189"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
