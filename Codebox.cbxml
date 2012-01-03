@@ -667,6 +667,9 @@ YXIgcmVzdWx0ID0gMTsKICBpZiAoZXhwb25lbnQgPT09IHVuZGVmaW5lZCkKICAgIGV4cG9uZW50ID0g
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z190"></relationship>
     </object>
     <object type="ASSET" id="z192">
+        <attribute name="notes" type="string">Iterates over the enumerable properties of an object, in arbitrary order. For each distinct property, statements can be executed.
+
+</attribute>
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">for … in.js</attribute>
         <attribute name="content" type="binary">Ly8gZm9yIOKApiBpbiBsb29wCgovLyBvYmplY3QgZGVmaW5pdGlvbgp2YXIgY2F0cyA9IHsKICAn
