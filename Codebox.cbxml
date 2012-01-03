@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>192</nextObjectID>
+        <nextObjectID>194</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -640,11 +640,11 @@ dW1iZXIgKyAyKSB7Cgljb25zb2xlLmxvZyhudW1iZXIpOwp9Cg==
     </object>
     <object type="SNIPPET" id="z188">
         <attribute name="name" type="string">native Javascript loops</attribute>
-        <attribute name="modified" type="date">347304637.83265399932861328125</attribute>
+        <attribute name="modified" type="date">347305568.19933700561523437500</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z192 z187"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z184 z186"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z193 z194 z186 z184 z106"></relationship>
     </object>
     <object type="ASSET" id="z189">
         <attribute name="sort" type="int32">-1</attribute>
@@ -673,5 +673,13 @@ YXIgcmVzdWx0ID0gMTsKICBpZiAoZXhwb25lbnQgPT09IHVuZGVmaW5lZCkKICAgIGV4cG9uZW50ID0g
 QnVnZXllJzogdHJ1ZSwKICAnTWlzcyBCdXNodGFpbCc6IHRydWUsCiAgJ1doaXRlIEZhbmcnOiB0cnVlLAogICdZZWxsb3cgQmVzcyc6IHRydWUsCiAgJ0NhdGhhcmluYSc6IHRydWUsCiAgJ0ZhdCBJZ29yJzogdHJ1ZSAKfQoKLy8gbGlzdCB0aGUgY2F0cwpmb3IgKHZhciBjYXQgaW4gY2F0cykgewogIGNvbnNvbGUubG9nKGNhdCk7Cn0K
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="TAG" id="z193">
+        <attribute name="name" type="string">for … in</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="TAG" id="z194">
+        <attribute name="name" type="string">for in</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
 </database>
