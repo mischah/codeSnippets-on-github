@@ -569,7 +569,7 @@ bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0
     </object>
     <object type="ASSET" id="z178">
         <attribute name="notes" type="string">Calls a function with a given this value and arguments provided as an array.
-See</attribute>
+See https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/apply</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9vQmFyIChmb28sIGJhcikgewogIHJldHVybiBjb25zb2xlLmxvZyhmb28gKyBi
