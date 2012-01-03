@@ -560,8 +560,8 @@ bmcgJyArIG5hbWU7CiAgICB2YXIgaGVsbG9BbGVydCA9IGZ1bmN0aW9uKCkgewogICAgICAgIGFsZXJ0
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169"></relationship>
     </object>
     <object type="SNIPPET" id="z177">
-        <attribute name="name" type="string">Calling functions via the apply method</attribute>
-        <attribute name="modified" type="date">347299249.73743200302124023438</attribute>
+        <attribute name="name" type="string">Calling functions (self-invoking, the usual way, via apply method)</attribute>
+        <attribute name="modified" type="date">347299851.59029197692871093750</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z178"></relationship>
