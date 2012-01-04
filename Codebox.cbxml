@@ -751,6 +751,7 @@ aWxlIChpIDwgNSk7
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="ASSET" id="z205">
+        <attribute name="notes" type="string">forEach() goes over an array, applying a function to every element.</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">forEach.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9yRWFjaChhcnJheSwgYWN0aW9uKSB7CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBh
