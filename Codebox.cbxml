@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>204</nextObjectID>
+        <nextObjectID>206</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -749,5 +749,21 @@ https://developer.mozilla.org/en/JavaScript/Reference/Statements/do...while</att
 aWxlIChpIDwgNSk7
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
+    </object>
+    <object type="ASSET" id="z205">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gZm9yRWFjaChhcnJheSwgYWN0aW9uKSB7CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBh
+cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dUaGF0KSB7CiAgY29uc29sZS5sb2cobG9nVGhhdCk7Cn0KCmZvckVhY2goWyJXYW1wZXRlciIsICJGb21hIiwgIkdyYW5mYWxsb29uIl0sIGxvZyk7
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
+    </object>
+    <object type="SNIPPET" id="z206">
+        <attribute name="name" type="string">Helper </attribute>
+        <attribute name="modified" type="date">347389433.97634100914001464844</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
