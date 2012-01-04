@@ -751,7 +751,9 @@ aWxlIChpIDwgNSk7
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z188"></relationship>
     </object>
     <object type="ASSET" id="z205">
-        <attribute name="notes" type="string">forEach() goes over an array, applying a function to every element.</attribute>
+        <attribute name="notes" type="string">forEach() goes over an array, applying a function to every element.
+
+See http://eloquentjavascript.net/chapter6.html</attribute>
         <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">forEach.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9yRWFjaChhcnJheSwgYWN0aW9uKSB7CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBh
@@ -772,7 +774,9 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
     <object type="ASSET" id="z208">
-        <attribute name="notes" type="string">One other generally useful 'fundamental algorithm' related to arrays is called map. It goes over an array, applying a function to every element, just like forEach. But instead of discarding the values returned by function, it builds up a new array from these values.</attribute>
+        <attribute name="notes" type="string">One other generally useful 'fundamental algorithm' related to arrays is called map. It goes over an array, applying a function to every element, just like forEach. But instead of discarding the values returned by function, it builds up a new array from these values.
+
+See http://eloquentjavascript.net/chapter6.html</attribute>
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">map.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gbWFwKGZ1bmMsIGFycmF5KSB7CiAgdmFyIHJlc3VsdCA9IFtdOwogIGZvckVhY2go
@@ -785,7 +789,7 @@ YXJyYXksIGZ1bmN0aW9uIChlbGVtZW50KSB7CiAgICByZXN1bHQucHVzaChmdW5jKGVsZW1lbnQpKTsK
 
 The reason reduce takes the function as its first argument instead of its last, as in forEach, is partly that this is tradition ― other languages do it like that ― and partly that this allows us to use a particular trick, which will be discussed at the end of this chapter. It does mean that, when calling reduce, writing the reducing function as an anonymous function looks a bit weirder, because now the other arguments follow after the function, and the resemblance to a normal for block is lost entirely.
 
-</attribute>
+See http://eloquentjavascript.net/chapter6.html</attribute>
         <attribute name="sort" type="int32">2</attribute>
         <attribute name="path" type="string">Reduce.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gcmVkdWNlKGNvbWJpbmUsIGJhc2UsIGFycmF5KSB7CiAgZm9yRWFjaChhcnJheSwg
