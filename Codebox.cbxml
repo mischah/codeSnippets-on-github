@@ -617,7 +617,7 @@ bnNvbGUubG9nKCJhWyIgKyBpbmRleCArICJdID0gIiArIGVsZW1lbnQpOwp9ClsyLCA1LCA5XS5mb3JF
     </object>
     <object type="TAG" id="z184">
         <attribute name="name" type="string">loops</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181 z188"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z181 z188 z206"></relationship>
     </object>
     <object type="TAG" id="z185">
         <attribute name="name" type="string">forEach</attribute>
@@ -763,11 +763,11 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
     </object>
     <object type="SNIPPET" id="z206">
         <attribute name="name" type="string">Helper functions for arrays </attribute>
-        <attribute name="modified" type="date">347390248.40482699871063232422</attribute>
+        <attribute name="modified" type="date">347390617.84013199806213378906</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205 z209 z208"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z185 z207 z210 z211 z106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z207 z185 z210 z211 z184 z106"></relationship>
     </object>
     <object type="TAG" id="z207">
         <attribute name="name" type="string">arrays</attribute>
