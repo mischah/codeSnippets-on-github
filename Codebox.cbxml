@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>208</nextObjectID>
+        <nextObjectID>209</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -764,7 +764,7 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
         <attribute name="modified" type="date">347389492.12895798683166503906</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205 z208"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205 z209 z208"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z207 z185"></relationship>
     </object>
     <object type="TAG" id="z207">
@@ -777,6 +777,14 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
         <attribute name="path" type="string">map.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gbWFwKGZ1bmMsIGFycmF5KSB7CiAgdmFyIHJlc3VsdCA9IFtdOwogIGZvckVhY2go
 YXJyYXksIGZ1bmN0aW9uIChlbGVtZW50KSB7CiAgICByZXN1bHQucHVzaChmdW5jKGVsZW1lbnQpKTsKICB9KTsKICByZXR1cm4gcmVzdWx0Owp9Cgpjb25zb2xlLmxvZyhtYXAoTWF0aC5yb3VuZCwgWzAuMDEsIDIsIDkuODksIE1hdGguUEldKSk7
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
+    </object>
+    <object type="ASSET" id="z209">
+        <attribute name="sort" type="int32">2</attribute>
+        <attribute name="path" type="string">Reduce.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gcmVkdWNlKGNvbWJpbmUsIGJhc2UsIGFycmF5KSB7CiAgZm9yRWFjaChhcnJheSwg
+ZnVuY3Rpb24gKGVsZW1lbnQpIHsKICAgIGJhc2UgPSBjb21iaW5lKGJhc2UsIGVsZW1lbnQpOwogIH0pOwogIHJldHVybiBiYXNlOwp9CgovLyBleGFtcGxlIDEgYnVpbGRpbmcgYSBzdW0gb2YgYXJyYXlzCgpmdW5jdGlvbiBhZGQoYSwgYikgewogIHJldHVybiBhICsgYjsKfQoKZnVuY3Rpb24gc3VtKG51bWJlcnMpIHsKICByZXR1cm4gcmVkdWNlKGFkZCwgMCwgbnVtYmVycyk7Cn0KCmNvbnNvbGUubG9nKHN1bShbNSw1LDFdKSk7IC8vIHJldHVybnMgMTE=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
