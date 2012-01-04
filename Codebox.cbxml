@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>207</nextObjectID>
+        <nextObjectID>208</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -752,7 +752,7 @@ aWxlIChpIDwgNSk7
     </object>
     <object type="ASSET" id="z205">
         <attribute name="notes" type="string">forEach() goes over an array, applying a function to every element.</attribute>
-        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">forEach.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9yRWFjaChhcnJheSwgYWN0aW9uKSB7CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBh
 cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dUaGF0KSB7CiAgY29uc29sZS5sb2cobG9nVGhhdCk7Cn0KCmZvckVhY2goWyJXYW1wZXRlciIsICJGb21hIiwgIkdyYW5mYWxsb29uIl0sIGxvZyk7CgovLyBBbm90aGVyIGV4YW1wbGUgbWFraW5nIHVzZSBvZiBmb3JFYWNoCmZ1bmN0aW9uIHN1bShudW1iZXJzKSB7CiAgdmFyIHRvdGFsID0gMDsKICBmb3JFYWNoKG51bWJlcnMsIGZ1bmN0aW9uIChudW1iZXIpIHsKICAgIHRvdGFsICs9IG51bWJlcjsKICB9KTsKICByZXR1cm4gdG90YWw7Cn0KY29uc29sZS5sb2coc3VtKFsxLCAxMCwgMTAwXSkpOw==
@@ -764,11 +764,19 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
         <attribute name="modified" type="date">347389492.12895798683166503906</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205 z208"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z207 z185"></relationship>
     </object>
     <object type="TAG" id="z207">
         <attribute name="name" type="string">arrays</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
+    </object>
+    <object type="ASSET" id="z208">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">map.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gbWFwKGZ1bmMsIGFycmF5KSB7CiAgdmFyIHJlc3VsdCA9IFtdOwogIGZvckVhY2go
+YXJyYXksIGZ1bmN0aW9uIChlbGVtZW50KSB7CiAgICByZXN1bHQucHVzaChmdW5jKGVsZW1lbnQpKTsKICB9KTsKICByZXR1cm4gcmVzdWx0Owp9Cgpjb25zb2xlLmxvZyhtYXAoTWF0aC5yb3VuZCwgWzAuMDEsIDIsIDkuODksIE1hdGguUEldKSk7
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
 </database>
