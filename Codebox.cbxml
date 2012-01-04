@@ -781,6 +781,11 @@ YXJyYXksIGZ1bmN0aW9uIChlbGVtZW50KSB7CiAgICByZXN1bHQucHVzaChmdW5jKGVsZW1lbnQpKTsK
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
     <object type="ASSET" id="z209">
+        <attribute name="notes" type="string">reduce combines an array into a single value by repeatedly using a function that combines an element of the array with a base value. This is exactly what sum did, so it can be made shorter by using reduce... except that addition is an operator and not a function in JavaScript, so we first had to put it into a function.
+
+The reason reduce takes the function as its first argument instead of its last, as in forEach, is partly that this is tradition ― other languages do it like that ― and partly that this allows us to use a particular trick, which will be discussed at the end of this chapter. It does mean that, when calling reduce, writing the reducing function as an anonymous function looks a bit weirder, because now the other arguments follow after the function, and the resemblance to a normal for block is lost entirely.
+
+</attribute>
         <attribute name="sort" type="int32">2</attribute>
         <attribute name="path" type="string">Reduce.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gcmVkdWNlKGNvbWJpbmUsIGJhc2UsIGFycmF5KSB7CiAgZm9yRWFjaChhcnJheSwg
