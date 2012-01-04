@@ -772,6 +772,7 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
     <object type="ASSET" id="z208">
+        <attribute name="notes" type="string">One other generally useful 'fundamental algorithm' related to arrays is called map. It goes over an array, applying a function to every element, just like forEach. But instead of discarding the values returned by function, it builds up a new array from these values.</attribute>
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">map.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gbWFwKGZ1bmMsIGFycmF5KSB7CiAgdmFyIHJlc3VsdCA9IFtdOwogIGZvckVhY2go
