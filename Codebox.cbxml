@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>212</nextObjectID>
+        <nextObjectID>213</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -763,11 +763,11 @@ cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dU
     </object>
     <object type="SNIPPET" id="z206">
         <attribute name="name" type="string">Helper functions for arrays </attribute>
-        <attribute name="modified" type="date">347390617.84013199806213378906</attribute>
+        <attribute name="modified" type="date">347403830.80665999650955200195</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z205 z209 z212 z208"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z207 z185 z210 z211 z184 z106"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z184 z213 z207 z210 z106 z185 z211"></relationship>
     </object>
     <object type="TAG" id="z207">
         <attribute name="name" type="string">arrays</attribute>
@@ -806,11 +806,16 @@ ZnVuY3Rpb24gKGVsZW1lbnQpIHsKICAgIGJhc2UgPSBjb21iaW5lKGJhc2UsIGVsZW1lbnQpOwogIH0p
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
     <object type="ASSET" id="z212">
+        <attribute name="notes" type="string">Determine whether an element is found within an array.</attribute>
         <attribute name="sort" type="int32">3</attribute>
         <attribute name="path" type="string">member.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gbWVtYmVyKGFycmF5LCB2YWx1ZSkgewogIHZhciBmb3VuZCA9IGZhbHNlOwogIGZv
 ckVhY2goYXJyYXksIGZ1bmN0aW9uKGVsZW1lbnQpIHsKICAgIGlmIChlbGVtZW50ID09PSB2YWx1ZSkKICAgICAgZm91bmQgPSB0cnVlOwogIH0pOwogIHJldHVybiBmb3VuZDsKfQoKY29uc29sZS5sb2cobWVtYmVyKFs2LCA3LCAiQm9yZGVhdXgiXSwgNykpOw==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
+    </object>
+    <object type="TAG" id="z213">
+        <attribute name="name" type="string">member</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
 </database>
