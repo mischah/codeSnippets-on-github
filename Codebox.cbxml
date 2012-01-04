@@ -754,7 +754,7 @@ aWxlIChpIDwgNSk7
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">forEach.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gZm9yRWFjaChhcnJheSwgYWN0aW9uKSB7CiAgZm9yICh2YXIgaSA9IDA7IGkgPCBh
-cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dUaGF0KSB7CiAgY29uc29sZS5sb2cobG9nVGhhdCk7Cn0KCmZvckVhY2goWyJXYW1wZXRlciIsICJGb21hIiwgIkdyYW5mYWxsb29uIl0sIGxvZyk7
+cnJheS5sZW5ndGg7IGkrKykKICAgIGFjdGlvbihhcnJheVtpXSk7Cn0KCmZ1bmN0aW9uIGxvZyhsb2dUaGF0KSB7CiAgY29uc29sZS5sb2cobG9nVGhhdCk7Cn0KCmZvckVhY2goWyJXYW1wZXRlciIsICJGb21hIiwgIkdyYW5mYWxsb29uIl0sIGxvZyk7CgovLyBBbm90aGVyIGV4YW1wbGUgbWFraW5nIHVzZSBvZiBmb3JFYWNoCgpmdW5jdGlvbiBzdW0obnVtYmVycykgewogIHZhciB0b3RhbCA9IDA7CiAgZm9yRWFjaChudW1iZXJzLCBmdW5jdGlvbiAobnVtYmVyKSB7CiAgICB0b3RhbCArPSBudW1iZXI7CiAgfSk7CiAgcmV0dXJuIHRvdGFsOwp9CnNob3coc3VtKFsxLCAxMCwgMTAwXSkpOw==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z206"></relationship>
     </object>
