@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>213</nextObjectID>
+        <nextObjectID>215</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -810,5 +810,20 @@ ZnVuY3Rpb24gKGVsZW1lbnQpIHsKICAgIGJhc2UgPSBjb21iaW5lKGJhc2UsIGVsZW1lbnQpOwogIH0p
         <attribute name="sort" type="int32">3</attribute>
         <attribute name="path" type="string">member.js</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET"></relationship>
+    </object>
+    <object type="ASSET" id="z214">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">PGtleT5MU1VJRWxlbWVudDwva2V5Pgo8c3RyaW5nPjE8L3N0cmluZz4=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z215"></relationship>
+    </object>
+    <object type="SNIPPET" id="z215">
+        <attribute name="name" type="string">Open SparkleShare »dockless«</attribute>
+        <attribute name="modified" type="date">347444624.26258897781372070312</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z214"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
