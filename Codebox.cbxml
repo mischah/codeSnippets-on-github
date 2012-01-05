@@ -812,7 +812,7 @@ ZnVuY3Rpb24gKGVsZW1lbnQpIHsKICAgIGJhc2UgPSBjb21iaW5lKGJhc2UsIGVsZW1lbnQpOwogIH0p
         <relationship name="snippet" type="1/1" destination="SNIPPET"></relationship>
     </object>
     <object type="ASSET" id="z214">
-        <attribute name="notes" type="string">Add the two lines to SparkleShare.app -\u3e00 Contents -\u3e00 </attribute>
+        <attribute name="notes" type="string">Add the two lines to SparkleShare.app -\u3e00 Contents -\u3e00 Info.plist</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.plist</attribute>
         <attribute name="content" type="binary">PGtleT5MU1VJRWxlbWVudDwva2V5Pgo8c3RyaW5nPjE8L3N0cmluZz4=
