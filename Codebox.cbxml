@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>224</nextObjectID>
+        <nextObjectID>226</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -453,7 +453,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
     </object>
     <object type="TAG" id="z159">
         <attribute name="name" type="string">text</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z108 z221"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z226 z108 z221"></relationship>
     </object>
     <object type="TAG" id="z160">
         <attribute name="name" type="string">selection</attribute>
@@ -884,5 +884,21 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAPTlNTdWJwcmVkaWNhdGVzXxAXTlND
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="ASSET" id="z225">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">robots.txt</attribute>
+        <attribute name="content" type="binary">IyBNZWluZSBSb2JvdGVyIEluZm8NVXNlci1hZ2VudDogKg1EaXNhbGxvdzogL3Vud2ljaHRpZy8N
+RGlzYWxsb3c6IC9jZ2ktbG9jYWwvIA1EaXNhbGxvdzogL2RpZXN1bmRkYXMuaHRtbA1EaXNhbGxvdzogL3VuZGRpZXNlaGllci5odG1sIA1EaXNhbGxvdzogL3ZlcmJvdGVuci5odG1sIA==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z226"></relationship>
+    </object>
+    <object type="SNIPPET" id="z226">
+        <attribute name="name" type="string">robots.txt</attribute>
+        <attribute name="modified" type="date">347917399.89604699611663818359</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z225"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z159"></relationship>
     </object>
 </database>
