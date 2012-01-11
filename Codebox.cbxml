@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>229</nextObjectID>
+        <nextObjectID>230</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -906,7 +906,7 @@ RGlzYWxsb3c6IC9jZ2ktbG9jYWwvIA1EaXNhbGxvdzogL2RpZXN1bmRkYXMuaHRtbA1EaXNhbGxvdzog
         <attribute name="modified" type="date">347983881.74663102626800537109</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z229"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z230 z229"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z228"></relationship>
     </object>
     <object type="TAG" id="z228">
@@ -914,11 +914,19 @@ RGlzYWxsb3c6IC9jZ2ktbG9jYWwvIA1EaXNhbGxvdzogL2RpZXN1bmRkYXMuaHRtbA1EaXNhbGxvdzog
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z227"></relationship>
     </object>
     <object type="ASSET" id="z229">
-        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">topDown.js</attribute>
         <attribute name="notes" type="string">Top down with help of filter(':first')</attribute>
         <attribute name="content" type="binary">JCgkbmF2Q29udGFpbmVyKS5lYWNoKGZ1bmN0aW9uKGluZGV4KSB7CgkvLyBHZXQgb25seSBvbmUg
 KGluIHRoYXQgY2FzZSB0aGUgZmlyc3QpIHVsIG9mIGVhY2ggbGV2ZWwgZm9yIGNhbGN1bGF0aW5nIHRoZSB3aWR0aAoJdmFyICRsZXZlbHMgPSAkKHRoaXMpLmZpbmQoJ3VsJykuZmlsdGVyKCc6Zmlyc3QnKQoJCS5hZGQoJCh0aGlzKS5maW5kKCd1bCB1bCcpLmZpbHRlcignOmZpcnN0JykpCgkJLmFkZCgkKHRoaXMpLmZpbmQoJ3VsIHVsIHVsJykuZmlsdGVyKCc6Zmlyc3QnKSk7CgkvL2NvbnNvbGUubG9nKCRsZXZlbHMpOyAvLyBkZWJ1Zwp9KTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z227"></relationship>
+    </object>
+    <object type="ASSET" id="z230">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">bottomUp.js</attribute>
+        <attribute name="content" type="binary">dmFyIGxldmVsID0gJCgkYWN0dWFsTGlzdEVsZW1lbnQpLnBhcmVudHNVbnRpbCgkbmF2Q29udGFp
+bmVyLCAndWwnKS5sZW5ndGg7CmNvbnNvbGUubG9nKGxldmVsKTs=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z227"></relationship>
     </object>
