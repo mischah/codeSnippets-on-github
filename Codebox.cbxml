@@ -923,7 +923,9 @@ KGluIHRoYXQgY2FzZSB0aGUgZmlyc3QpIHVsIG9mIGVhY2ggbGV2ZWwgZm9yIGNhbGN1bGF0aW5nIHRo
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z227"></relationship>
     </object>
     <object type="ASSET" id="z230">
-        <attribute name="notes" type="string">Bottom up with help of parentsUntil()</attribute>
+        <attribute name="notes" type="string">Bottom up with help of .parentsUntil()
+
+http://api.jquery.com/parentsUntil</attribute>
         <attribute name="sort" type="int32">1</attribute>
         <attribute name="path" type="string">bottomUp.js</attribute>
         <attribute name="content" type="binary">dmFyIGxldmVsID0gJCgkYWN0dWFsTGlzdEVsZW1lbnQpLnBhcmVudHNVbnRpbCgkbmF2Q29udGFp
