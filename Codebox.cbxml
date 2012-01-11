@@ -1,16 +1,16 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0"?>
 <!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
 
 <database>
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>226</nextObjectID>
+        <nextObjectID>229</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
                     <key>NSPersistenceFrameworkVersion</key>
-                    <integer>358</integer>
+                    <integer>251</integer>
                     <key>NSStoreModelVersionHashes</key>
                     <dict>
                         <key>Asset</key>
@@ -78,7 +78,7 @@ CW51bWJlciA9ICcnICsgbnVtYmVyOwoJaWYgKG51bWJlci5sZW5ndGggPiAzKSB7CgkJdmFyIG1vZCA9
     </object>
     <object type="TAG" id="z106">
         <attribute name="name" type="string">Javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z172 z169 z173 z118 z132 z188 z177 z206 z181 z195 z190 z120 z103"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z120 z227 z181 z132 z190 z103 z195 z206 z173 z118 z169 z188 z172 z177"></relationship>
     </object>
     <object type="ASSET" id="z107">
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
@@ -900,5 +900,26 @@ RGlzYWxsb3c6IC9jZ2ktbG9jYWwvIA1EaXNhbGxvdzogL2RpZXN1bmRkYXMuaHRtbA1EaXNhbGxvdzog
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z225"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z159"></relationship>
+    </object>
+    <object type="SNIPPET" id="z227">
+        <attribute name="name" type="string">Getting the level of nested Elements</attribute>
+        <attribute name="modified" type="date">347983881.74663102626800537109</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z229"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z106 z228"></relationship>
+    </object>
+    <object type="TAG" id="z228">
+        <attribute name="name" type="string">jQuery</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z227"></relationship>
+    </object>
+    <object type="ASSET" id="z229">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">topDown.js</attribute>
+        <attribute name="notes" type="string">Top down with help of filter(':first')</attribute>
+        <attribute name="content" type="binary">JCgkbmF2Q29udGFpbmVyKS5lYWNoKGZ1bmN0aW9uKGluZGV4KSB7CgkvLyBHZXQgb25seSBvbmUg
+KGluIHRoYXQgY2FzZSB0aGUgZmlyc3QpIHVsIG9mIGVhY2ggbGV2ZWwgZm9yIGNhbGN1bGF0aW5nIHRoZSB3aWR0aAoJdmFyICRsZXZlbHMgPSAkKHRoaXMpLmZpbmQoJ3VsJykuZmlsdGVyKCc6Zmlyc3QnKQoJCS5hZGQoJCh0aGlzKS5maW5kKCd1bCB1bCcpLmZpbHRlcignOmZpcnN0JykpCgkJLmFkZCgkKHRoaXMpLmZpbmQoJ3VsIHVsIHVsJykuZmlsdGVyKCc6Zmlyc3QnKSk7CgkvL2NvbnNvbGUubG9nKCRsZXZlbHMpOyAvLyBkZWJ1Zwp9KTs=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z227"></relationship>
     </object>
 </database>
