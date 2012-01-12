@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="yes"?>
 <!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
 
 <database>
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>230</nextObjectID>
+        <nextObjectID>231</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -841,11 +841,11 @@ ZnVuY3Rpb24gKGVsZW1lbnQpIHsKICAgIGJhc2UgPSBjb21iaW5lKGJhc2UsIGVsZW1lbnQpOwogIH0p
     </object>
     <object type="SNIPPET" id="z219">
         <attribute name="name" type="string">Überprüfen einer E-Mail Adresse</attribute>
-        <attribute name="modified" type="date">347917131.39011198282241821289</attribute>
+        <attribute name="modified" type="date">348050149.01856398582458496094</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z220"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG" idrefs="z124"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z231 z124"></relationship>
     </object>
     <object type="ASSET" id="z220">
         <attribute name="sort" type="int32">-1</attribute>
@@ -936,5 +936,9 @@ http://api.jquery.com/parentsUntil</attribute>
 bmVyLCAndWwnKS5sZW5ndGg7CmNvbnNvbGUubG9nKGxldmVsKTs=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z227"></relationship>
+    </object>
+    <object type="TAG" id="z231">
+        <attribute name="name" type="string">php</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z219"></relationship>
     </object>
 </database>
