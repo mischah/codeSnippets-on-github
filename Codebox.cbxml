@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>234</nextObjectID>
+        <nextObjectID>235</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -942,10 +942,10 @@ bmVyLCAndWwnKS5sZW5ndGg7CmNvbnNvbGUubG9nKGxldmVsKTs=
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z219"></relationship>
     </object>
     <object type="ASSET" id="z232">
-        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">Asset.sh</attribute>
-        <attribute name="content" type="binary">Y2QgRk9MREVSCnBhdGNoIC0tdmVyYm9zZSAtcDAgPCAvVXNlcnMvcGF0aC90by9kaWZmL2xlZ2Vu
-ZEZpeEZvckNoZWNrYm94R3JvdXBBbmRSYWRpb0dyb3VwLmRpZmY=
+        <attribute name="content" type="binary">Y2QgRk9MREVSCnBhdGNoIC0tdmVyYm9zZSAtcDAgPCAvVXNlcnMvcGF0aC90by9kaWZmL3BhdGNo
+LmRpZmY=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z234"></relationship>
     </object>
@@ -958,7 +958,15 @@ ZEZpeEZvckNoZWNrYm94R3JvdXBBbmRSYWRpb0dyb3VwLmRpZmY=
         <attribute name="modified" type="date">351597785.77285599708557128906</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z232"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z235 z232"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z117 z233 z116"></relationship>
+    </object>
+    <object type="ASSET" id="z235">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">Asset.diff</attribute>
+        <attribute name="content" type="binary">SW5kZXg6IGpxdWVyeS5zbWFWYWxpZGF0ZS5qcwo9PT09PT09PT09PT09PT09PT09PT09PT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci0tLSBqcXVlcnkuc21hVmFsaWRhdGUuanMJKHJldmlzaW9uIDg5OTEpCisrKyBqcXVlcnkuc21hVmFsaWRhdGUuanMJKHdvcmtpbmcgY29weSkKQEAgLTMwNCw3ICszMDQsMTAgQEAKIAkJCQkJCSR0b29sdGlwSG9sZGVyLnRpcFRpcCgnZGVzdHJveScpOwogCQkJCQl9CiAJCQkJCWVsc2UgewotCQkJCQkJaWYgKCQoZWxlbWVudCkuaXMoJzpjaGVja2JveCwgOnJhZGlvJykpIHsKKwkJCQkJCWlmICgKKwkJCQkJCQkkKGVsZW1lbnQpLmlzKCc6Y2hlY2tib3gsIDpyYWRpbycpCisJCQkJCQkJJiYgJChlbGVtZW50KS5jbG9zZXN0KCcuY2hlY2tib3hncm91cCwgLnJhZGlvZ3JvdXAnKS5maW5kKCdsZWdlbmQnKS5sZW5ndGggPiAwCisJCQkJCQkpIHsKIAkJCQkJCQlsYWJlbC5zaWJsaW5ncygnbGVnZW5kJykucmVtb3ZlQ2xhc3MoJ2Vycm9yICcgKyB0aGlzLmllRXJyb3JDbGFzcyk7CiAJCQkJCQl9CiAJCQkJCQlsYWJlbC5zdG9wKHRydWUsIHRydWUpLnNsaWRlVXAoJ2Zhc3QnLCBmdW5jdGlvbiAoKSB7CkBAIC02NjYsNCArNjY5LDQgQEAKIAkJCSQuZXJyb3IoJ01ldGhvZCAiJyArICBtZXRob2QgKyAnIiBkb2VzblwndCBleGlzdCBvbiBqUXVlcnkuc21hVmFsaWRhdGUnKTsKIAkJfQogCX07Ci19KGpRdWVyeSkpOwpcIE5vIG5ld2xpbmUgYXQgZW5kIG9mIGZpbGUKK30oalF1ZXJ5KSk7Cg==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z234"></relationship>
     </object>
 </database>
