@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>231</nextObjectID>
+        <nextObjectID>234</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -142,11 +142,11 @@ bQpbY29sb3JdCglkaWZmID0gYXV0bwoJc3RhdHVzID0gYXV0bwoJYnJhbmNoID0gYXV0bwpbYXBwbHld
     </object>
     <object type="TAG" id="z116">
         <attribute name="name" type="string">Bash</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114 z234"></relationship>
     </object>
     <object type="TAG" id="z117">
         <attribute name="name" type="string">SVN</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114 z234"></relationship>
     </object>
     <object type="SNIPPET" id="z118">
         <attribute name="name" type="string">str_replace in Javascript</attribute>
@@ -940,5 +940,25 @@ bmVyLCAndWwnKS5sZW5ndGg7CmNvbnNvbGUubG9nKGxldmVsKTs=
     <object type="TAG" id="z231">
         <attribute name="name" type="string">php</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z219"></relationship>
+    </object>
+    <object type="ASSET" id="z232">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.sh</attribute>
+        <attribute name="content" type="binary">Y2QgRk9MREVSCnBhdGNoIC0tdmVyYm9zZSAtcDAgPCAvVXNlcnMvcGF0aC90by9kaWZmL2xlZ2Vu
+ZEZpeEZvckNoZWNrYm94R3JvdXBBbmRSYWRpb0dyb3VwLmRpZmY=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z234"></relationship>
+    </object>
+    <object type="TAG" id="z233">
+        <attribute name="name" type="string">Git</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z234"></relationship>
+    </object>
+    <object type="SNIPPET" id="z234">
+        <attribute name="name" type="string">Apply patches in unified diff format</attribute>
+        <attribute name="modified" type="date">351597785.77285599708557128906</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z232"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z117 z233 z116"></relationship>
     </object>
 </database>
