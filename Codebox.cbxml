@@ -972,8 +972,8 @@ PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci0tLSBqcXVlcnkuc21hVmFsaWRh
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z234"></relationship>
     </object>
     <object type="SNIPPET" id="z236">
-        <attribute name="name" type="string">defaults write NSGlobalDomain WebKitDeveloperExtras -bool true</attribute>
-        <attribute name="modified" type="date">363034102.98670101165771484375</attribute>
+        <attribute name="name" type="string">Apple command line settings</attribute>
+        <attribute name="modified" type="date">363034136.46873700618743896484</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z237"></relationship>
