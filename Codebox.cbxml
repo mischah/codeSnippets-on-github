@@ -980,8 +980,9 @@ PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci0tLSBqcXVlcnkuc21hVmFsaWRh
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z116"></relationship>
     </object>
     <object type="ASSET" id="z237">
+        <attribute name="notes" type="string">Add a context menu item for showing the Web Inspector in web views. For instance the Mac App Store.</attribute>
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="path" type="string">Asset.sh</attribute>
         <attribute name="content" type="binary">ZGVmYXVsdHMgd3JpdGUgTlNHbG9iYWxEb21haW4gV2ViS2l0RGV2ZWxvcGVyRXh0cmFzIC1ib29s
 IHRydWU=
 </attribute>
