@@ -989,8 +989,8 @@ bGUgVGFiIGluIG1vZGFsIGRpYWxvZ3MpCmRlZmF1bHRzIHdyaXRlIE5TR2xvYmFsRG9tYWluIEFwcGxl
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z236"></relationship>
     </object>
     <object type="SNIPPET" id="z238">
-        <attribute name="name" type="string">Die Fussbroichs</attribute>
-        <attribute name="modified" type="date">368867671.01150298118591308594</attribute>
+        <attribute name="name" type="string">E-mail address obfuscation</attribute>
+        <attribute name="modified" type="date">368867697.13104599714279174805</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z239"></relationship>
@@ -999,7 +999,7 @@ bGUgVGFiIGluIG1vZGFsIGRpYWxvZ3MpCmRlZmF1bHRzIHdyaXRlIE5TR2xvYmFsRG9tYWluIEFwcGxl
     <object type="ASSET" id="z239">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.txt</attribute>
-        <attribute name="content" type="binary">RGllIEZ1c3Nicm9pY2hz
+        <attribute name="content" type="binary">LmRvbWFpbjo6YmVmb3JlIHsKCXdpZHRoOiAxZW07Cgljb250ZW50OiAnQCc7Cn0=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z238"></relationship>
     </object>
