@@ -998,8 +998,9 @@ bGUgVGFiIGluIG1vZGFsIGRpYWxvZ3MpCmRlZmF1bHRzIHdyaXRlIE5TR2xvYmFsRG9tYWluIEFwcGxl
     </object>
     <object type="ASSET" id="z239">
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.txt</attribute>
-        <attribute name="content" type="binary">LmRvbWFpbjo6YmVmb3JlIHsKCXdpZHRoOiAxZW07Cgljb250ZW50OiAnQCc7Cn0=
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">LyoqCiAqIEUtbWFpbCBhZGRyZXNzIG9iZnVzY2F0aW9uCiAqLwoKLmRvbWFpbjo6YmVmb3JlIHsK
+CXdpZHRoOiAxZW07Cgljb250ZW50OiAnQCc7Cn0=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z238"></relationship>
     </object>
