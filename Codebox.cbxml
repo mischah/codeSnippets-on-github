@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>239</nextObjectID>
+        <nextObjectID>241</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -101,7 +101,7 @@ Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2Fm
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z108 z141 z143 z145 z162"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z143 z162 z166 z238 z145 z141 z108"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
@@ -990,18 +990,30 @@ bGUgVGFiIGluIG1vZGFsIGRpYWxvZ3MpCmRlZmF1bHRzIHdyaXRlIE5TR2xvYmFsRG9tYWluIEFwcGxl
     </object>
     <object type="SNIPPET" id="z238">
         <attribute name="name" type="string">E-mail address obfuscation</attribute>
-        <attribute name="modified" type="date">368867697.13104599714279174805</attribute>
+        <attribute name="modified" type="date">368867769.72099202871322631836</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z239"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z240 z239"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z241 z109"></relationship>
     </object>
     <object type="ASSET" id="z239">
-        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="sort" type="int32">0</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
         <attribute name="content" type="binary">LyoqCiAqIEUtbWFpbCBhZGRyZXNzIG9iZnVzY2F0aW9uCiAqLwoKLmRvbWFpbjo6YmVmb3JlIHsK
 CXdpZHRoOiAxZW07Cgljb250ZW50OiAnQCc7Cn0=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z238"></relationship>
+    </object>
+    <object type="ASSET" id="z240">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">Asset.html</attribute>
+        <attribute name="content" type="binary">Zmlyc3RuYW1lLmxhc3RuYW1lPHNwYW4gY2xhc3M9ImRvbWFpbiI+ZXhhbXBsZS5vcmc8L3NwYW4+
+
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z238"></relationship>
+    </object>
+    <object type="TAG" id="z241">
+        <attribute name="name" type="string">email</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z238"></relationship>
     </object>
 </database>
