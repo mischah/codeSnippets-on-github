@@ -1027,7 +1027,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">apache.sh</attribute>
         <attribute name="content" type="binary">IyBTdGFydCBzZXJ2ZXIKc3VkbyBhcGFjaGVjdGwgc3RhcnQKCiMgU3RvcCBzZXJ2ZXIKc3VkbyBh
-cGFjaGVjdGwgc3RvcAoKIyBSZXN0YXJ0IHNlcnZlcgpzdWRvIGFwYWNoZWN0bCByZXN0YXJ0
+cGFjaGVjdGwgc3RvcAoKIyBSZXN0YXJ0IHNlcnZlcgpzdWRvIGFwYWNoZWN0bCByZXN0YXJ0CgojRmluZCB0aGUgQXBhY2hlIHZlcnNpb24KaHR0cGQgLXY=
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z243"></relationship>
     </object>
