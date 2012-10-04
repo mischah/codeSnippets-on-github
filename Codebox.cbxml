@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>243</nextObjectID>
+        <nextObjectID>245</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -144,7 +144,7 @@ bQpbY29sb3JdCglkaWZmID0gYXV0bwoJc3RhdHVzID0gYXV0bwoJYnJhbmNoID0gYXV0bwpbYXBwbHld
     </object>
     <object type="TAG" id="z116">
         <attribute name="name" type="string">Bash</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z114 z234 z239 z236"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z234 z236 z114 z243 z239 z245"></relationship>
     </object>
     <object type="TAG" id="z117">
         <attribute name="name" type="string">SVN</attribute>
@@ -1033,10 +1033,26 @@ cGFjaGVjdGwgc3RvcAoKIyBSZXN0YXJ0IHNlcnZlcgpzdWRvIGFwYWNoZWN0bCByZXN0YXJ0CgojRmlu
     </object>
     <object type="SNIPPET" id="z243">
         <attribute name="name" type="string">Control Apache Webserver</attribute>
-        <attribute name="modified" type="date">371028421.14196097850799560547</attribute>
+        <attribute name="modified" type="date">371029270.06246399879455566406</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z242"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z116"></relationship>
+    </object>
+    <object type="ASSET" id="z244">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.sh</attribute>
+        <attribute name="content" type="binary">IyBTeW50YXgKc3VkbyBsbiAtcyAvVXNlcnMvbWt1ZWhuZWwvU2l0ZXMvaHRtbC1tb2R1bGVzLXJl
+bGF1bmNoIC9Vc2Vycy9ta3VlaG5lbC9TaXRlcy9odG1sLW1vZHVsZXMtcmVsYXVuY2gtc3ltbGluawoKIyBFeGFtcGxlCnN1ZG8gbG4gLXMgL1VzZXJzL21rdWVobmVsL1NpdGVzL2h0bWwtbW9kdWxlcy1yZWxhdW5jaCAvVXNlcnMvbWt1ZWhuZWwvU2l0ZXMvaHRtbC1tb2R1bGVzLXJlbGF1bmNoLXN5bWxpbms=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z245"></relationship>
+    </object>
+    <object type="SNIPPET" id="z245">
+        <attribute name="name" type="string">Create Symlinks</attribute>
+        <attribute name="modified" type="date">371029290.28082698583602905273</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z244"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z116"></relationship>
     </object>
 </database>
