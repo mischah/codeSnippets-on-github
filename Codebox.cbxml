@@ -1060,6 +1060,7 @@ ZQpzdWRvIGxuIC1zIC9Vc2Vycy9ta3VlaG5lbC9TaXRlcy9odG1sLW1vZHVsZXMtcmVsYXVuY2ggL1Vz
         <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
     </object>
     <object type="ASSET" id="z247">
+        <attribute name="notes" type="string">See http://killdream.github.com/blog/2011/10/understanding-javascript-oop/#sec-4-1</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Constructor functions.js</attribute>
         <attribute name="content" type="binary">ZnVuY3Rpb24gRm9vKCkgewogICAgdGhpcy5mb28gPSAnYmFyJzsKfTsKCnZhciBmb29CYXIgPSBu
