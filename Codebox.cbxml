@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>245</nextObjectID>
+        <nextObjectID>248</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -80,7 +80,7 @@ CW51bWJlciA9ICcnICsgbnVtYmVyOwoJaWYgKG51bWJlci5sZW5ndGggPiAzKSB7CgkJdmFyIG1vZCA9
     </object>
     <object type="TAG" id="z106">
         <attribute name="name" type="string">Javascript</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z120 z227 z181 z132 z190 z103 z195 z206 z173 z118 z169 z188 z172 z177"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z169 z188 z118 z103 z120 z227 z132 z181 z190 z206 z173 z172 z177 z195 z248"></relationship>
     </object>
     <object type="ASSET" id="z107">
         <attribute name="notes" type="string">Text den man markiert wird farblich dargestellt. Das ist zwar irgendwie unnötig, aber trotzdem cool, das so was geht …</attribute>
@@ -1054,5 +1054,25 @@ ZQpzdWRvIGxuIC1zIC9Vc2Vycy9ta3VlaG5lbC9TaXRlcy9odG1sLW1vZHVsZXMtcmVsYXVuY2ggL1Vz
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z244"></relationship>
         <relationship name="tags" type="0/0" destination="TAG" idrefs="z116"></relationship>
+    </object>
+    <object type="TAG" id="z246">
+        <attribute name="name" type="string">oo</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z248"></relationship>
+    </object>
+    <object type="ASSET" id="z247">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gRm9vKCkgewogICAgdGhpcy5mb28gPSAnYmFyJzsKfTsKCnZhciBmb29CYXIgPSBu
+ZXcgRm9vKCk7Ci8vID0+IHsgZm9vOiAnYmFyJyB9Cgpjb25zb2xlLmxvZyhmb29CYXIpOwoKCi8vIENvbnN0cnVjdHMgYSBuZXcgUGVyc29uCmZ1bmN0aW9uIFBlcnNvbihmaXJzdF9uYW1lLCBsYXN0X25hbWUpIHsKICAgIC8vIElmIHRoZSBmdW5jdGlvbiBpcyBjYWxsZWQgd2l0aCBgbmV3JywgYXMgd2UgZXhwZWN0CiAgICAvLyBgdGhpcycgaGVyZSB3aWxsIGJlIHRoZSBmcmVzaGx5IGNyZWF0ZWQgb2JqZWN0CiAgICAvLyB3aXRoIHRoZSBbW1Byb3RvdHlwZV1dIHNldCB0byBQZXJzb24ucHJvdG90eXBlCiAgICAvLwogICAgLy8gT2YgY291cnNlLCBpZiBzb21lb25lIG9taXRzIG5ldyB3aGVuIGNhbGxpbmcgdGhlCiAgICAvLyBmdW5jdGlvbiwgdGhlIHVzdWFsIHJlc29sdXRpb24gb2YgYHRoaXMnIOKAlCBhcwogICAgLy8gZXhwbGFpbmVkIGJlZm9yZSDigJQgd2lsbCB0YWtlIHBsYWNlLgogICAgdGhpcy5maXJzdF9uYW1lID0gZmlyc3RfbmFtZTsKICAgIHRoaXMubGFzdF9uYW1lICA9IGxhc3RfbmFtZTsKfQoKLy8gKHBlcnNvbjpTdHJpbmcpIOKGkiBTdHJpbmcKLy8gR3JlZXRzIHRoZSBnaXZlbiBwZXJzb24KUGVyc29uLnByb3RvdHlwZS5ncmVldCA9IGZ1bmN0aW9uKHBlcnNvbikgewogICAgcmV0dXJuIHRoaXMuZmlyc3RfbmFtZSArICc6IEhhbGxvLCAnICsgcGVyc29uICsgJy4nOwp9Cgp2YXIgbWUgPSBuZXcgUGVyc29uKCdNaWNoYWVsJywgJ0vDvGhuZWwnKTsKdmFyIHdpZmUgPSBuZXcgUGVyc29uKCdKYW5hJywgJ0vDvGhuZWwnKTsKCmNvbnNvbGUuZ3JvdXAoJ21lJyk7CmNvbnNvbGUuZGlyKG1lKTsKY29uc29sZS5sb2coJ2ZpcnN0X25hbWU6ICcsIG1lLmZpcnN0X25hbWUpOwpjb25zb2xlLmxvZygnZ3JlZXQ6ICcsIG1lLmdyZWV0KCdNYXJ0aW4nKSk7CmNvbnNvbGUuZ3JvdXBFbmQoKTsKCmNvbnNvbGUuZ3JvdXAoJ3dpZmUnKTsKY29uc29sZS5kaXIod2lmZSk7CmNvbnNvbGUubG9nKCdmaXJzdF9uYW1lOiAnLCB3aWZlLmZpcnN0X25hbWUpOwpjb25zb2xlLmxvZygnZ3JlZXQ6ICcsIHdpZmUuZ3JlZXQoJ01hcnRpbicpKTsKY29uc29sZS5ncm91cEVuZCgpOw==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z248"></relationship>
+    </object>
+    <object type="SNIPPET" id="z248">
+        <attribute name="name" type="string">Object orientied JavaScript</attribute>
+        <attribute name="modified" type="date">372703263.88202202320098876953</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z247"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z246 z106"></relationship>
     </object>
 </database>
