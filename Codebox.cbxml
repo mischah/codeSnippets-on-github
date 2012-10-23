@@ -575,7 +575,7 @@ See https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Functio
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.js</attribute>
         <attribute name="content" type="binary">KGZ1bmN0aW9uIGZvb0JhciAoZm9vLCBiYXIpIHsKICByZXR1cm4gY29uc29sZS5sb2coZm9vICsg
-YmFyKTsKfSkoJ2d1JywgJ2d1Y2snKTsKCmZvb0JhcignaHUnLCdoYScpOwpmb29CYXIuYXBwbHkobnVsbCxbJ2hpJywnaGEnXSk7CmZvb0Jhci5jYWxsKG51bGwsICdoaScsJ2hhJyk7CgovLyBjYWxsIGlzIGZhc3RlciB0aGFuIGFwcGx5IQo=
+YmFyKTsKfSkoJ2d1JywgJ2d1Y2snKTsKCgpmdW5jdGlvbiBmb29CYXIgKGZvbywgYmFyKSB7CiAgcmV0dXJuIGNvbnNvbGUubG9nKGZvbyArIGJhcik7Cn07Cgpmb29CYXIoJ2h1JywnaGEnKTsKZm9vQmFyLmFwcGx5KG51bGwsWydoaScsJ2hhJ10pOwpmb29CYXIuY2FsbChudWxsLCAnaGknLCdoYScpOwoKLy8gY2FsbCBpcyBmYXN0ZXIgdGhhbiBhcHBseSEK
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z177"></relationship>
     </object>
