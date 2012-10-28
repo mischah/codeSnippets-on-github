@@ -1095,7 +1095,8 @@ ZXcgRm9vKCk7Ci8vID0+IHsgZm9vOiAnYmFyJyB9Cgpjb25zb2xlLmxvZyhmb29CYXIpOwoKCi8vIENv
     <object type="ASSET" id="z252">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.sh</attribute>
-        <attribute name="content" type="binary">CmJyZXcgaW5mbyBub2Rl
+        <attribute name="content" type="binary">I1ByaW50IGFsbCBwcmV2aW91c2x5IGluc3RhbGxlZCB2ZXJzaW9ucwpicmV3IGluZm8gbm9kZQoK
+
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z251"></relationship>
     </object>
