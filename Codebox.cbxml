@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>250</nextObjectID>
+        <nextObjectID>252</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -144,7 +144,7 @@ bQpbY29sb3JdCglkaWZmID0gYXV0bwoJc3RhdHVzID0gYXV0bwoJYnJhbmNoID0gYXV0bwpbYXBwbHld
     </object>
     <object type="TAG" id="z116">
         <attribute name="name" type="string">Bash</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z234 z236 z114 z243 z239 z245"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z234 z236 z251 z243 z114 z239 z245"></relationship>
     </object>
     <object type="TAG" id="z117">
         <attribute name="name" type="string">SVN</attribute>
@@ -1083,5 +1083,20 @@ ZXcgRm9vKCk7Ci8vID0+IHsgZm9vOiAnYmFyJyB9Cgpjb25zb2xlLmxvZyhmb29CYXIpOwoKCi8vIENv
     <object type="TAG" id="z250">
         <attribute name="name" type="string">OOP</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z248"></relationship>
+    </object>
+    <object type="SNIPPET" id="z251">
+        <attribute name="name" type="string">brew info node</attribute>
+        <attribute name="modified" type="date">373139779.94687700271606445312</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z252"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z116"></relationship>
+    </object>
+    <object type="ASSET" id="z252">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.sh</attribute>
+        <attribute name="content" type="binary">CmJyZXcgaW5mbyBub2Rl
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z251"></relationship>
     </object>
 </database>
