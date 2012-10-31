@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>AABB65E9-7EC5-4892-A0B1-28A8625547D2</UUID>
-        <nextObjectID>254</nextObjectID>
+        <nextObjectID>257</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -101,7 +101,7 @@ Y2tncm91bmQtY29sb3I6ICNGRkE7CiAgICAgICBjb2xvcjogIzAwMDsKfQoKLyogV29ya3MgaW4gU2Fm
     </object>
     <object type="TAG" id="z109">
         <attribute name="name" type="string">CSS</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z166 z108 z141 z143 z145 z162"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z256 z145 z166 z143 z162 z108 z141"></relationship>
     </object>
     <object type="SNIPPET" id="z110">
         <attribute name="name" type="string">My minimal ~/.gitconfig</attribute>
@@ -1113,5 +1113,25 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
     <object type="TAG" id="z254">
         <attribute name="name" type="string">node.js</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z251"></relationship>
+    </object>
+    <object type="ASSET" id="z255">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="content" type="binary">LmNvbnRhaW5lcjo6YmVmb3JlCnsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdG9wOiAwOwogIHJp
+Z2h0OiAwOwogIHBhZGRpbmc6IC41ZW07CiAgY29sb3I6ICNmZmY7CiAgZm9udC1zaXplOiAyMDAlOwp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQwMHB4KSBhbmQgKG1heC13aWR0aDogNTAwcHgpCnsKICAuY29udGFpbmVyOjpiZWZvcmUKICB7CiAgICBjb250ZW50OiAiNDAwLTUwMCI7CiAgICBiYWNrZ3JvdW5kOiByZWQ7CiAgfQp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDUwMHB4KSBhbmQgKG1heC13aWR0aDogNjAwcHgpCnsKICAuY29udGFpbmVyOjpiZWZvcmUKICB7CiAgICBjb250ZW50OiAiNTAwLTYwMCI7CiAgICBiYWNrZ3JvdW5kOiBncmVlbjsKICB9Cn0KCkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjAwcHgpIGFuZCAobWF4LXdpZHRoOiA3MDBweCkKewogIC5jb250YWluZXI6OmJlZm9yZQogIHsKICAgIGNvbnRlbnQ6ICI2MDAtNzAwIjsKICAgIGJhY2tncm91bmQ6IGJsdWU7CiAgfQp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDcwMHB4KSBhbmQgKG1heC13aWR0aDogODAwcHgpCnsKICAuY29udGFpbmVyOjpiZWZvcmUKICB7CiAgICBjb250ZW50OiAiNzAwLTgwMCI7CiAgICBiYWNrZ3JvdW5kOiBwdXJwbGU7CiAgfQp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDgwMHB4KQp7CiAgLmNvbnRhaW5lcjo6YmVmb3JlCiAgewogICAgY29udGVudDogIj44MDAiOwogICAgYmFja2dyb3VuZDogYmxhY2s7CiAgfQp9
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z256"></relationship>
+    </object>
+    <object type="SNIPPET" id="z256">
+        <attribute name="name" type="string">.container::before</attribute>
+        <attribute name="modified" type="date">373386616.56241399049758911133</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z255"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z257 z109"></relationship>
+    </object>
+    <object type="TAG" id="z257">
+        <attribute name="name" type="string">responsive</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z256"></relationship>
     </object>
 </database>
