@@ -1116,7 +1116,7 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
     </object>
     <object type="ASSET" id="z255">
         <attribute name="notes" type="string">Article: http://www.maxdesign.com.au/articles/three-tips/
-Demo: 
+Demo: http://maxdesign.com.au/jobs/example-three/view.htm
 </attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
