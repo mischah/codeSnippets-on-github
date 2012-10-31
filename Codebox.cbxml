@@ -1115,6 +1115,9 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z251"></relationship>
     </object>
     <object type="ASSET" id="z255">
+        <attribute name="notes" type="string">Article: http://www.maxdesign.com.au/articles/three-tips/
+Demo: 
+</attribute>
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">Asset.css</attribute>
         <attribute name="content" type="binary">LmNvbnRhaW5lcjo6YmVmb3JlCnsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdG9wOiAwOwogIHJp
