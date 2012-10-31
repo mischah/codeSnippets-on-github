@@ -1116,15 +1116,15 @@ FgcIDxQcJicpMTU6O0BESk9QVVxhZmhVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5
     </object>
     <object type="ASSET" id="z255">
         <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.txt</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
         <attribute name="content" type="binary">LmNvbnRhaW5lcjo6YmVmb3JlCnsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgdG9wOiAwOwogIHJp
 Z2h0OiAwOwogIHBhZGRpbmc6IC41ZW07CiAgY29sb3I6ICNmZmY7CiAgZm9udC1zaXplOiAyMDAlOwp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDQwMHB4KSBhbmQgKG1heC13aWR0aDogNTAwcHgpCnsKICAuY29udGFpbmVyOjpiZWZvcmUKICB7CiAgICBjb250ZW50OiAiNDAwLTUwMCI7CiAgICBiYWNrZ3JvdW5kOiByZWQ7CiAgfQp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDUwMHB4KSBhbmQgKG1heC13aWR0aDogNjAwcHgpCnsKICAuY29udGFpbmVyOjpiZWZvcmUKICB7CiAgICBjb250ZW50OiAiNTAwLTYwMCI7CiAgICBiYWNrZ3JvdW5kOiBncmVlbjsKICB9Cn0KCkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNjAwcHgpIGFuZCAobWF4LXdpZHRoOiA3MDBweCkKewogIC5jb250YWluZXI6OmJlZm9yZQogIHsKICAgIGNvbnRlbnQ6ICI2MDAtNzAwIjsKICAgIGJhY2tncm91bmQ6IGJsdWU7CiAgfQp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDcwMHB4KSBhbmQgKG1heC13aWR0aDogODAwcHgpCnsKICAuY29udGFpbmVyOjpiZWZvcmUKICB7CiAgICBjb250ZW50OiAiNzAwLTgwMCI7CiAgICBiYWNrZ3JvdW5kOiBwdXJwbGU7CiAgfQp9CgpAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDgwMHB4KQp7CiAgLmNvbnRhaW5lcjo6YmVmb3JlCiAgewogICAgY29udGVudDogIj44MDAiOwogICAgYmFja2dyb3VuZDogYmxhY2s7CiAgfQp9
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z256"></relationship>
     </object>
     <object type="SNIPPET" id="z256">
-        <attribute name="name" type="string">.container::before</attribute>
-        <attribute name="modified" type="date">373386625.89312100410461425781</attribute>
+        <attribute name="name" type="string"> “Seeing” your responsive CSS files in action</attribute>
+        <attribute name="modified" type="date">373389367.38804101943969726562</attribute>
         <attribute name="locked" type="bool">0</attribute>
         <relationship name="list" type="1/1" destination="LIST"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z255"></relationship>
